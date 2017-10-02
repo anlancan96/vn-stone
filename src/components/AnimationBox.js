@@ -3,17 +3,32 @@ import $ from 'jquery';
 
 export default class AnimationBox extends Component {
     componentDidMount(){
+        var $slide = $('#slider');
+        var $slideContainer = $slide.find('.slides');
+        var $slides = $slideContainer.find('.slide');
+        var pause = 3000;
+        var width = 720;
+        var currentSlide = 1;
+        var interval;
         $(window).on('load',function() {
-           var $slide = $('#slider');
-           var $slides = $slide.find('.slides');
-           var pause = 3000;
-           var width = 720;
-           var currentSlide = 1;
-           setInterval(function(){
-               $slides.animate({'marginLeft':'-='+width},1000);
-           },pause);
-        });
-        
+            function startSlider(){ 
+                interval =  setInterval(function(){
+                                    $slideContainer.animate({'marginLeft':'-='+width},500,function(){
+                                        currentSlide++;
+                                        if(currentSlide === $slides.length){
+                                            currentSlide = 1;
+                                            $slideContainer.css('marginLeft',0); 
+                                        }
+                                    });
+                                    },pause);
+            }
+            
+            function stopSlide(){
+                clearInterval(interval);
+            }
+            $slide.on('mouseenter',stopSlide).on('mouseleave',startSlider);
+            startSlider();
+        })
     }
     render(){
         return(
