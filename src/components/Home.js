@@ -3,13 +3,17 @@ import Header from "./Header";
 import {Container} from "../style/Home";
 import Footer from "./Footer";
 import AnimationBox from "./AnimationBox";
+import Menu from "./Menu";
+
 
 class Home extends React.Component{
   render(){
     return(
         <Container>
-            <Footer/>
+            <Header/>
+            <Menu/>
             <AnimationBox/>
+            <Footer/>
         </Container>    
     )
   }

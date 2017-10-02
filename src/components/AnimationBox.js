@@ -1,13 +1,14 @@
 import React,{Component} from'react';
 import $ from 'jquery';
 
+
 export default class AnimationBox extends Component {
     componentDidMount(){
         var $slide = $('#slider');
         var $slideContainer = $slide.find('.slides');
         var $slides = $slideContainer.find('.slide');
         var pause = 3000;
-        var width = 720;
+        var width = 1005;
         var currentSlide = 1;
         var interval;
         $(window).on('load',function() {

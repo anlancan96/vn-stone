@@ -1,6 +1,6 @@
 #slider {
-  width: 720px;
-  height: 480px;
+  width: 1005px;
+  height: 300px;
   overflow: hidden;
 }
 #slider .slides {
@@ -13,6 +13,6 @@
 
 #slider .slide{
   float: left;
-  width: 720px;
-  height: 400px;
+  width: 1005px;
+  height: 300px;
 }

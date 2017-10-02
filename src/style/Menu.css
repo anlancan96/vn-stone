@@ -1,0 +1,205 @@
+.droplinebar{
+	margin-bottom: 20px;
+	overflow: hidden;
+    width: 1005px;
+}
+
+.droplinebar ul{
+  font-size: 12px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+    background: #ce9d00 none center center repeat-x; /*default background of menu bar*/
+    position: absolute;
+}
+
+.droplinebar ul li{
+	display: inline;
+	float: left;
+	padding: 0px;
+	z-index: 999;
+}
+.droplinebar ul li li{
+	padding:2px 5px;
+}
+.droplinebar ul li a{
+	float: left;
+	color: white;
+	padding: 10px 4px;
+	text-decoration: none;
+	text-shadow: 1px 1px #a77510;
+}
+
+.droplinebar ul li a:visited{
+	color: white;
+}
+.droplinebar > ul > li.home-menu > a > img.downarrowclass{
+	display:none;
+}
+.droplinebar > ul > li.home-menu >a {
+	background: url("http://vinastone.com/catalog/view/theme/vinastone/image/home.png") no-repeat scroll center center transparent;
+	height:15px;
+	width: 15px;
+	display:block;
+}
+.droplinebar > ul > li + li {
+	border-left: 1px solid rgb(255, 255, 255);
+}
+.droplinebar  ul  li ul  li ul li img.downarrowclass{
+	display:none;
+}
+.droplinebar  ul  li ul  li + li {
+	background: url("") no-repeat scroll left 12px transparent;
+}
+.droplinebar  ul.prox h5{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	font-size:12px;
+}
+.droplinebar  ul.prox li{
+	width:99px;
+}
+.droplinebar  ul.prox  li + li {
+	background:none;
+}
+.droplinebar  ul  li ul li ul  li + li {
+	background: url("") no-repeat scroll left 12px transparent;
+}
+.droplinebar ul li a:hover, .droplinebar ul li .current{ /*background of main menu bar links onMouseover*/
+	color: white;
+  background-color: #ac8301;
+}
+ul.oc-outer {
+
+}
+/* Sub level menus*/
+.droplinebar ul li ul{
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	background: #ac8301; /*sub menu background color */
+	visibility: hidden;
+  height:33px;
+}
+.droplinebar img.imgprox{
+	border: 1px solid #EFE7D8;
+	padding: 3px 3px 3px;
+}
+.droplinebar img.imgprox:hover{
+	border: 1px solid #666;
+}
+.droplinebar ul li ul li ul li ul{
+	position: absolute;
+	z-index: 999;
+	left: -1px !important;
+	top: 0;
+	background: #ffffff; /*sub menu background color */
+	visibility: hidden;
+	height:auto !important;
+	border-bottom: 1px solid #ac8301;
+	border-left: 1px solid #ac8301;
+	border-right: 1px solid #ac8301;
+	padding-right:2px;
+}
+.droplinebar ul li ul li ul{
+	position: absolute;
+	z-index: 999;
+	left: 0;
+	top: 31px !important;
+	background: #ffffff; /*sub menu background color */
+	visibility: hidden;
+	height:auto !important;
+	border-bottom: 1px solid #ac8301;
+	border-left: 1px solid #ac8301;
+	border-right: 1px solid #ac8301;
+	width:99.7% !important;
+}
+.droplinebar ul li ul li ul li a:visited{
+	color:#666;
+}
+.droplinebar ul li ul li ul li a{
+	color:#666666;
+	text-shadow: none;
+	z-index: 999;
+}
+.droplinebar ul li ul li ul li a:hover{
+	color: #ce9d00;
+}
+/* Sub level menu links style */
+.droplinebar ul li ul li a{
+	padding: 6px 6px 6px 6px;
+	margin: 0;
+}
+
+.droplinebar ul li ul li a:hover{ /*sub menu links' background color onMouseover */
+	background: url("") no-repeat scroll center 26px transparent;
+}
+/*Group customer*/
+#list-customer ul li a{
+	color:#666;
+}
+.droplinebar ul li ul li ul li a.readmorepro:link, .droplinebar ul li ul li ul li a.readmorepro:visited{
+	border: 1px solid #EFE7D8;
+	font-weight: bold;
+	margin-top: 6px;
+	padding: 35px 3px 34px;
+	text-align: center;
+	width: 80px;
+}
+.droplinebar ul li ul li ul li a.readmorepro:hover{
+	border: 1px solid #CE9D00;
+}
+ul.fixmenu li{
+	padding:2px 0px !important;
+}
+.droplinebar ul li ul{
+  position: absolute;
+  height: 31px; 
+  visibility: visible;
+  width: 1006px; 
+  left: 7px;
+  top: 43px; 
+  display: none;  
+}
+.droplinebar ul li ul li{
+  
+	border-left: 1px solid rgb(255, 255, 255);
+}
+/* .home-menu:hover .oc-outer{
+  display: block;
+} */
+
+#ul13 li{
+  border-left: 1px solid rgb(206, 128, 11);
+}
+.oc-left:hover #ul13{
+  display: block;
+  
+}
+
+.droplinebar ul li:hover > ul{
+  display: block;
+}
+
+.droplinebar ul li ul{
+    left: -1px;
+    top:35px;
+}
+
+.droplinebar ul li ul li:hover ul{
+  display: block;
+}
+
+.droplinebar ul li ul li ul{
+ left: 0px;
+ top: 26px; 
+ visibility: visible;
+ width: 1005px;
+  }
+
+.downarrowclassName{
+ padding-left: 3px;
+}

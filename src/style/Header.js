@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const Head = styled.div`
 font-family: Arial, Helvetica, sans-serif;
+padding-bottom:150px;
 `;
 
 export const TopHeader = styled.div`
@@ -20,7 +21,7 @@ export const A = styled.a`
 
 export const Contact = styled.div`
  position: absolute;
- right: 270px;
+ right: 40%;
  color: #666666;
  display: block;
  text-decoration: none;
@@ -55,10 +56,11 @@ export const ImgIcon = styled.img`
 
 export const Search = styled.div`
    position: absolute;
-   right: 69px;
+   right: 20%;
    width: 201px;
    z-index: 15;
    display: block;
+   padding-top:2px;
 `;
 
 export const ButtonSearch = styled.div`
@@ -90,7 +92,7 @@ export const ImgSearch = styled.img`
 export const Logo = styled.div`
     position: absolute;
     top: 51px;
-    left: 50%;
+    left: 45%;
 `;
 
 export const ImgLogo = styled.img`
