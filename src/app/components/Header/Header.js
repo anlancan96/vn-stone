@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {A,TopHeader,Contact,Ul,Li,ImgIcon,Head,
     Search,SearchInput,ButtonSearch,ImgSearch,
-    Logo,ImgLogo} from "../style/Header.js";
+    Logo,ImgLogo} from "./HeaderStyles.js";
 
 class Header extends React.Component{
     

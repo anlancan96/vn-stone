@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {MenuFooter,MenuFooterLeft,Ul,Li,BoxArea,
-        BoxContent,A,CompanyName,P,InfofooterTitle,FooterBot,Column} from "../style/Footer";
+        BoxContent,A,CompanyName,P,InfofooterTitle,FooterBot,Column} from "./FooterStyles.js";
 
 
 class Footer extends React.Component{

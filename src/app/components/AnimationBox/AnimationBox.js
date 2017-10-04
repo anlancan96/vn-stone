@@ -1,6 +1,6 @@
 import React,{Component} from'react';
 import $ from 'jquery';
-
+import './AnimationBox.css';
 
 export default class AnimationBox extends Component {
     componentDidMount(){
