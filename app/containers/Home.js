@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import Header from "./Header/Header";
+import Header from "../components/Header/Header";
 import {Container} from "./HomeStyles";
-import Footer from "./Footer/Footer";
-import AnimationBox from "./AnimationBox/AnimationBox";
-import Menu from "./Menu/Menu";
+import Footer from "../components/Footer/Footer";
+import AnimationBox from "../components/AnimationBox/AnimationBox";
+import Menu from "../components/Menu/Menu";
 
 
 class Home extends React.Component{
@@ -18,4 +18,4 @@ class Home extends React.Component{
     )
   }
 }
-export default Home;
+module.exports = Home;

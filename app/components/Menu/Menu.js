@@ -59,4 +59,4 @@ Menu.defaultProps={
     ImageExample1:"http://vinastone.com/image/cache/data/vinastone/san-pham/mosaic/Bluestone/1.B01Rchipsize15x15mm-80x80.jpg"
 }
 
-export default Menu;
+module.exports = Menu;

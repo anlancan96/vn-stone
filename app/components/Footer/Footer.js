@@ -86,4 +86,4 @@ Footer.defaultProps={
 
 }
 
-export default Footer;
+module.exports = Footer;

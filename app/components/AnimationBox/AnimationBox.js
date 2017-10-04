@@ -2,7 +2,7 @@ import React,{Component} from'react';
 import $ from 'jquery';
 import './AnimationBox.css';
 
-export default class AnimationBox extends Component {
+class AnimationBox extends Component {
     componentDidMount(){
         var $slide = $('#slider');
         var $slideContainer = $slide.find('.slides');
@@ -49,3 +49,5 @@ AnimationBox.defaultProps = {
     link2 : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLmIim1bW3Hcd9nKEh3uEhwCtXHgBzw_a-311hxBbfYiy10rZS',
     link3 : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNPVrTr3aHGhIFjA8VA3rfswHyiSWnrqErPcThDsOqdNnPVPpv'
 }
+
+module.exports = AnimationBox;

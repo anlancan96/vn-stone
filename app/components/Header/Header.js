@@ -58,4 +58,4 @@ Header.defaultProps={
     srcIcon5:"http://vinastone.com/catalog/view/theme/vinastone/image/button-search.png",
     logo:"http://vinastone.com/image/data/Logo_1.png"
 }
-export default Header;
+module.exports = Header;
