@@ -82,7 +82,7 @@ ul.oc-outer {
 	top: 0;
 	background: #ac8301; /*sub menu background color */
 	visibility: hidden;
-  height:33px;
+  	height:33px;
 }
 .droplinebar img.imgprox{
 	border: 1px solid #EFE7D8;
