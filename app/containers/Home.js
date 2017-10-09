@@ -13,7 +13,7 @@ class Home extends React.Component{
         <Container>
             <Menu/>
             <Louver/>
-            <Footer/>
+            <Footer/>          
         </Container>    
     )
   }

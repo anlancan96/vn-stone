@@ -194,7 +194,7 @@ ul.fixmenu li{
 }
 
 .droplinebar ul li ul li ul{
- left: 0px;
+ left: 1px;
  top: 26px; 
  visibility: visible;
  width: 1005px;
@@ -202,4 +202,9 @@ ul.fixmenu li{
 
 .downarrowclassName{
  padding-left: 3px;
+}
+
+.imgprox{
+	height: 80px;
+	width: 80px;
 }
