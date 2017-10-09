@@ -1,3 +1,4 @@
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './app/app.js',
   output: {
@@ -16,15 +17,9 @@ module.exports = {
       ,{
         test: /\.css?$/,
         loader: 'style!css'}
+      ,{ test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
     ],
     rules: [
-      {
-        test: /\.(jpg|png|svg)$/,
-        loader: 'url-loader',
-        options: {
-          limit: 25000,
-        },
-      },
       {
         test: /\.(jpg|png|svg)$/,
         loader: 'file-loader',
@@ -39,3 +34,14 @@ module.exports = {
   },
   watch: true
 }
+
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
+export const webpackConfig = {
+  entry: './app/app.js',
+  output: {
+    path: './public/js',
+    filename: 'jquery.RotateImageMenu.js'
+  },
+  plugins: [new HtmlWebpackPlugin()]
+};
