@@ -14272,26 +14272,29 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 var Home = function (_React$Component) {
-  _inherits(Home, _React$Component);
+    _inherits(Home, _React$Component);
 
-  function Home() {
-    _classCallCheck(this, Home);
+    function Home() {
+        _classCallCheck(this, Home);
 
-    return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
-  }
-
-  _createClass(Home, [{
-    key: "render",
-    value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_2__HomeStyles__["a" /* Container */],
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__components_ListItem_ListItem__["a" /* default */], null)
-      );
+        return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));
     }
-  }]);
 
-  return Home;
+    _createClass(Home, [{
+        key: "render",
+        value: function render() {
+            return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                __WEBPACK_IMPORTED_MODULE_2__HomeStyles__["a" /* Container */],
+                null,
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_Header_Header___default.a, null),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__components_Menu_Menu___default.a, null),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_AnimationBox_AnimationBox___default.a, null),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_Footer_Footer___default.a, null)
+            );
+        }
+    }]);
+
+    return Home;
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
 module.exports = Home;
@@ -14939,7 +14942,7 @@ var ListItem = function (_Component) {
     return ListItem;
 }(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
-/* harmony default export */ exports["a"] = ListItem;
+/* unused harmony default export */ var _unused_webpack_default_export = ListItem;
 
 /***/ },
 /* 115 */
@@ -14960,6 +14963,13 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
+var defaultStone = {
+  ChinaStone: [{ type: "Indian white", src: "../image/China/Indian White 1.jpg", description: "Indian white 1" }, { type: "Indian white", src: "../image/China/Indian White 2.jpg", description: "Indian white 2" }, { type: "Indian white", src: "../image/China/Indian White 3.jpg", description: "Indian white 3" }, { type: "Indian white", src: "../image/China/Indian White 4.jpg", description: "Indian white 4" }, { type: "Indian white", src: "../image/China/Indian White 5.jpg", description: "Indian white 5" }],
+  Egypt1: [{ type: "Egypt", src: "../image/Egypt/Granite Ai Cập/Fardy-Green.jpg", description: "Fardy-Green" }, { type: "Egypt", src: "../image/Egypt/Granite Ai Cập/Fardy-Yellow.jpg", description: "Fardy-Yellow" }, { type: "Egypt", src: "../image/Egypt/Granite Ai Cập/Forsan.jpg", description: "Forsan" }, { type: "Egypt", src: "../image/Egypt/Granite Ai Cập/Gendola-1.jpg", description: "Gendola-1" }, { type: "Egypt", src: "../image/Egypt/Granite Ai Cập/Gendola-2.jpg", description: "Gendola-2" }, { type: "Egypt", src: "../image/Egypt/Granite Ai Cập/Gray.jpg", description: "Gray" }, { type: "Egypt", src: "../image/Egypt/Granite Ai Cập/Red Aswan Granite Slabs17.jpg", description: "Red Aswan Granite" }, { type: "Egypt", src: "../image/Egypt/Granite Ai Cập/Halayb White Granite Slabs19 (1).jpg", description: "Halay White" }],
+  Egypt2: [{ type: "Egypt", src: "../image/Egypt/Marble Ai Cap/Glala extra (8).jpg", description: "Glala extra (8)" }, { type: "Egypt", src: "../image/Egypt/Marble Ai Cap/Glala extra high quality.jpg", description: "Glala extra high quality" }, { type: "Egypt", src: "../image/Egypt/Marble Ai Cap/Royal creama (4).jpg", description: "Royal creama (4)" }, { type: "Egypt", src: "../image/Egypt/Marble Ai Cap/sinai pearle (2).jpg", description: "Sinai pearle (2)" }, { type: "Egypt", src: "../image/Egypt/Marble Ai Cap/Royal creama (9).jpg", description: "Royal creama (9)" }, { type: "Egypt", src: "../image/Egypt/Marble Ai Cap/sunny (2).jpg", description: "Sunny (2)" }, { type: "Egypt", src: "../image/Egypt/Marble Ai Cap/travin (2).jpg", description: "Travin (2)" }, { type: "Egypt", src: "../image/Egypt/Marble Ai Cap/Royal Gray Polished slabs 2cm31.jpg", description: "Royal Gray Polished slabs 2cm31" }],
+  Indian1: [{ type: "Indian white", src: "../image/Indian/Black Galaxy - Kim Sa Trung Ấn Độ/Black Galaxy- Slabs.jpg", description: "Black Galaxy- Slabs" }, { type: "Indian white", src: "../image/Indian/Black Galaxy - Kim Sa Trung Ấn Độ/IMG-20170402-WA0004.jpg", description: "IMG-20170402-WA0004" }, { type: "Indian white", src: "../image/Indian/Black Galaxy - Kim Sa Trung Ấn Độ/IMG-20170402-WA0008.jpg", description: "IMG-20170402-WA0008" }, { type: "Indian white", src: "../image/Indian/Black Galaxy - Kim Sa Trung Ấn Độ/IMG-20170402-WA0012.jpg", description: "IMG-20170402-WA0012" }, { type: "Indian white", src: "../image/Indian/Black Galaxy - Kim Sa Trung Ấn Độ/IMG-20170911-WA0005.jpg", description: "IMG-20170911-WA0005" }, { type: "Indian white", src: "../image/Indian/Black Galaxy - Kim Sa Trung Ấn Độ/IMG-20170402-WA0009.jpg", description: "IMG-20170402-WA0009" }]
+};
 
 var Menu = function (_React$Component) {
   _inherits(Menu, _React$Component);
@@ -15032,76 +15042,22 @@ var Menu = function (_React$Component) {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'ul',
                   { className: 'prox' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.IndianWhite1 }),
+                  defaultStone.ChinaStone.map(function (s) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        'Indian white 1'
+                        'a',
+                        { href: '/' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: s.src }),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'h5',
+                          null,
+                          s.description
+                        )
                       )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.IndianWhite2 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        'Indian white 2'
-                      )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.IndianWhite3 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        'Indian white 3'
-                      )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.IndianWhite4 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        'Indian white 4'
-                      )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.IndianWhite5 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        'Indian white 5'
-                      )
-                    )
-                  )
+                    );
+                  })
                 )
               )
             )
@@ -15138,34 +15094,22 @@ var Menu = function (_React$Component) {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'ul',
                   { className: 'prox' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.FardyGreen }),
+                  defaultStone.Egypt1.map(function (s) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        'Fardy-Green'
+                        'a',
+                        { href: '/' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: s.src }),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'h5',
+                          null,
+                          s.description
+                        )
                       )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.FardyYellow }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        'Fardy-Yellow'
-                      )
-                    )
-                  )
+                    );
+                  })
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -15184,34 +15128,22 @@ var Menu = function (_React$Component) {
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'ul',
                   { className: 'prox' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
+                  defaultStone.Egypt2.map(function (s) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn 3'
+                        'a',
+                        { href: '/' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: s.src }),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'h5',
+                          null,
+                          s.description
+                        )
                       )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn4'
-                      )
-                    )
-                  )
+                    );
+                  })
                 )
               )
             )
@@ -15225,7 +15157,7 @@ var Menu = function (_React$Component) {
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
                 null,
-                '\u0110\xE1 Thu\u1EF5 S\u1EF9',
+                'Indian Stone',
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: this.props.IconDown, className: 'downarrowclassName' })
               )
             ),
@@ -15241,41 +15173,29 @@ var Menu = function (_React$Component) {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'span',
                     null,
-                    '\u0110\xE1 lo\u1EA1i1',
+                    'Kim Sa Trung \u1EA4n \u0110\u1ED9',
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: this.props.IconDown, className: 'downarrowclassName' })
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'ul',
                   { className: 'prox' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
+                  defaultStone.Indian1.map(function (s) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn 1'
+                        'a',
+                        { href: '/' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: s.src }),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'h5',
+                          null,
+                          s.description
+                        )
                       )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn 2'
-                      )
-                    )
-                  )
+                    );
+                  })
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -15287,105 +15207,29 @@ var Menu = function (_React$Component) {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'span',
                     null,
-                    '\u0110\xE1 lo\u1EA1i2',
+                    '\u0110\u1ECF Ho\xE0ng Gia',
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: this.props.IconDown, className: 'downarrowclassName' })
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'ul',
                   { className: 'prox' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
+                  defaultStone.Egypt2.map(function (s) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn 3'
+                        'a',
+                        { href: '/' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: s.src }),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'h5',
+                          null,
+                          s.description
+                        )
                       )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn4'
-                      )
-                    )
-                  )
-                )
-              )
-            )
-          ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'li',
-            null,
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'a',
-              { href: '/' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'span',
-                null,
-                '\u0110\xE1 \u1EA4n \u0110\u1ED9',
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: this.props.IconDown, className: 'downarrowclassName' })
-              )
-            ),
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'ul',
-              { className: 'oc-outer' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'li',
-                { className: 'oc-left' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'a',
-                  { href: '/' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'span',
-                    null,
-                    '\u0110\xE1 lo\u1EA1i1',
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: this.props.IconDown, className: 'downarrowclassName' })
-                  )
-                ),
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                  'ul',
-                  { className: 'prox' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn 1'
-                      )
-                    )
-                  ),
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn 2'
-                      )
-                    )
-                  )
+                    );
+                  })
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -15397,41 +15241,97 @@ var Menu = function (_React$Component) {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'span',
                     null,
-                    '\u0110\xE1 lo\u1EA1i2',
+                    '\u0110\u1ECF Ho\xE0ng Gia',
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: this.props.IconDown, className: 'downarrowclassName' })
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'ul',
                   { className: 'prox' },
-                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
-                    null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
+                  defaultStone.Egypt2.map(function (s) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      null,
                       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn 3'
+                        'a',
+                        { href: '/' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: s.src }),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'h5',
+                          null,
+                          s.description
+                        )
                       )
-                    )
-                  ),
+                    );
+                  })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                { className: 'oc-left' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '/' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'li',
+                    'span',
                     null,
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                      'a',
-                      { href: '/' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: this.props.ImageExample1 }),
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'h5',
-                        null,
-                        '\u0110\xE1 t\u1EF1 nhi\xEAn4'
-                      )
-                    )
+                    '\u0110\u1ECF Ruby',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: this.props.IconDown, className: 'downarrowclassName' })
                   )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'ul',
+                  { className: 'prox' },
+                  defaultStone.Egypt2.map(function (s) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      null,
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'a',
+                        { href: '/' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: s.src }),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'h5',
+                          null,
+                          s.description
+                        )
+                      )
+                    );
+                  })
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                { className: 'oc-left' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { href: '/' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'span',
+                    null,
+                    'N\xE2u Anh \u1EA4n \u0110\u1ED9',
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: this.props.IconDown, className: 'downarrowclassName' })
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'ul',
+                  { className: 'prox' },
+                  defaultStone.Egypt2.map(function (s) {
+                    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'li',
+                      null,
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'a',
+                        { href: '/' },
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'imgprox', src: s.src }),
+                        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                          'h5',
+                          null,
+                          s.description
+                        )
+                      )
+                    );
+                  })
                 )
               )
             )
@@ -15443,15 +15343,12 @@ var Menu = function (_React$Component) {
 
   return Menu;
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
+//
+
 
 Menu.defaultProps = {
   IconHome: "http://vinastone.com/catalog/view/javascript/menu-arrow-down.png",
   IconDown: "http://vinastone.com/catalog/view/javascript/menu-arrow-down.png",
-  IndianWhite1: "Indian White 1.jpg",
-  IndianWhite2: "Indian White 2.jpg",
-  IndianWhite3: "Indian White 3.jpg",
-  IndianWhite4: "Indian White 4.jpg",
-  IndianWhite5: "Indian White 5.jpg",
   ImageExample1: "http://vinastone.com/image/cache/data/vinastone/san-pham/mosaic/Bluestone/1.B01Rchipsize15x15mm-80x80.jpg"
 };
 

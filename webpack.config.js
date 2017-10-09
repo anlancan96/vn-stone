@@ -35,13 +35,4 @@ module.exports = {
   watch: true
 }
 
-var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-export const webpackConfig = {
-  entry: './app/app.js',
-  output: {
-    path: './public/js',
-    filename: 'jquery.RotateImageMenu.js'
-  },
-  plugins: [new HtmlWebpackPlugin()]
-};

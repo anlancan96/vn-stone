@@ -10,7 +10,10 @@ class Home extends React.Component{
   render(){
     return(
         <Container>
-            <ListItem/>          
+            <Header/>
+            <Menu/>
+            <Louver/>
+            <Footer/>          
         </Container>    
     )
   }
