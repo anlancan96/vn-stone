@@ -3,6 +3,13 @@ var app = express();
 const Passport = require('passport');
 const Admin = require(__dirname + "/src/admin/");
 const User = require(__dirname + "/src/user");
+const chinaStone = require(__dirname + "/src/chinaStone");
+const egyptStone = require(__dirname + "/src/egyptStone");
+const indiaStone = require(__dirname + "/src/indiaStone");
+const italyStone = require(__dirname + "/src/italyStone");
+const spainStone = require(__dirname + "/src/spainStone");
+const turkeyStone = require(__dirname + "/src/turkeyStone");
+const vietNamStone = require(__dirname + "/src/vietNamStone");
 const session = require('express-session');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -21,13 +28,34 @@ app.set('views', './views');
 app.use(express.static('public'));
 app.use('/admin', Admin);
 app.use('/user', User);
-mongoose.connect("mongodb://localhost/MHStone", (err) => {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log('Connect DB success !');
-    }
-  })
+app.use('/chinaStone', chinaStone);
+app.use('/egyptStone', egyptStone);
+app.use('/indiaStone', indiaStone);
+app.use('/italyStone', italyStone);
+app.use('/spainStone', spainStone);
+app.use('/turkeyStone', turkeyStone);
+app.use('/vietNamStone', vietNamStone);
+
+var option = {
+  server: {
+      socketOptions: {
+          keepAlive: 300000,
+          connectTimeoutMS: 30000
+      }
+  },
+  replset: {
+      socketOptions: {
+          keepAlive: 300000,
+          connectTimeoutMS: 30000
+      }
+  }
+};
+
+mongoose.connect("mongodb://localhost/MHStone",option ).then(function(){
+  console.log("connent db!");
+},function(err){
+  console.log(err);
+})
 
 app.listen(6969, () => console.log('Server started'))
 app.get('/', (req, res) => res.render('home.ejs'));

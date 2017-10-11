@@ -6,12 +6,13 @@ import PageNotFound from './containers/PageNotFound';
 import { Link } from 'react-router-dom';
 import {Provider} from 'react-redux';
 import store from './store/store';
+import Page2 from './containers/Page2';
 
 ReactDOM.render((
   <Provider store={store}>
     <BrowserRouter>
       <Switch>
-          <Route path="/a" component={PageNotFound} />
+          <Route path="/ChinaStone" component={Page2} />
           <Route path="/" component={Home} />
       
       </Switch>
