@@ -1,8 +1,6 @@
 var express = require('express');
 var app = express();
 const Passport = require('passport');
-const Admin = require(__dirname + "/src/admin/");
-const User = require(__dirname + "/src/user");
 const chinaStone = require(__dirname + "/src/chinaStone");
 const egyptStone = require(__dirname + "/src/egyptStone");
 const indiaStone = require(__dirname + "/src/indiaStone");
@@ -26,8 +24,6 @@ app.use(Passport.session());
 app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(express.static('public'));
-app.use('/admin', Admin);
-app.use('/user', User);
 app.use('/chinaStone', chinaStone);
 app.use('/egyptStone', egyptStone);
 app.use('/indiaStone', indiaStone);

@@ -59,7 +59,7 @@ class Footer extends React.Component{
                         </P>    
                     </Column>
                     <Column>
-                        <InfofooterTitle>Mỏ và nhà máy tại Thanh Hóa</InfofooterTitle>
+                        <InfofooterTitle>Xưởng tại thành phố Cần Thơ</InfofooterTitle>
                         <P>{this.props.Column41}
                             <br/>
                             {this.props.Column42}
@@ -72,7 +72,7 @@ class Footer extends React.Component{
 }
 
 Footer.defaultProps={
-    Column1:"Tầng 1, đơn nguyên B, tòa nhà Licogi 13, 164 Khuất Duy Tiến, quận Thanh Xuân, Hà Nội.",
+    Column1:"6a/15a,Nguyễn Cảnh Chân,phường Nguyễn Cư Trinh,Quận 1,thành phố Hồ Chí Minh",
     Column12:"Tel: 024.3 641 32 15",
     Column21:"Tầng 1, tòa nhà Licogi 13, 164 Khuất Duy Tiến, Hà Nội.",
     Column22:"Tel: 024.85876653",
@@ -81,8 +81,8 @@ Footer.defaultProps={
     Column31:"532A đường Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, TP Hồ Chí Minh.",
     Column32:"Tel: 028.38429502",
     Column33:"Hotline:0904962992",
-    Column41:"#1. Xã Hà Long, Huyện Hà Trung, Thanh Hóa (Mosaic & Marble)",
-    Column42:"#2. Khu CN Hà Trung, Quốc lộ 217, Hà Trung, Thanh Hóa (Bluestone)"
+    Column41:"Cửa hàng Hoàng Sơn:279,Quốc lộ 91B,phường Long Tuyền,quận Bình Thuỷ,thành phố Cần Thơ",
+    Column42:""
 
 }
 

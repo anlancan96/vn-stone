@@ -14,7 +14,6 @@ export const TopHeader = styled.div`
 `;
 
 export const A = styled.a`
-  text-decoration: none;
   color: #666666
   cursor: pointer;
 `;
@@ -44,6 +43,7 @@ export const Li = styled.li`
     position: relative;
     display: list-item;
     text-align: -webkit-match-parent;
+    color: #666666;
 `;
 
 export const ImgIcon = styled.img`
@@ -51,7 +51,6 @@ export const ImgIcon = styled.img`
     position: relative;
      width: 18px;
      height: 18px;
-     top: 5px;
 `;
 
 export const Search = styled.div`
@@ -60,7 +59,7 @@ export const Search = styled.div`
    width: 201px;
    z-index: 15;
    display: block;
-   padding-top:2px;
+   padding-top:0px;
 `;
 
 export const ButtonSearch = styled.div`
