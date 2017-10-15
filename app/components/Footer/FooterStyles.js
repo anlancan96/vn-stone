@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MenuFooter = styled.div`
-    background: none repeat scroll 0 0 #CE9D00;
+    background: none repeat scroll 0 0 #4f337a;
     clear: both;
     height: 30px;
     width: 1005px;
@@ -61,13 +61,13 @@ export const Column = styled.div`
     float: left;
     width: 230px;
     padding: 0px 10px;
-    border-right: 1px solid #CE9D00;
+    border-right: 1px solid #4f337a;
     height: 120px;
     line-height: 20px;
 `;
 
 export const InfofooterTitle = styled.h4`
-    color: #CE9D00;
+    color: #4f337a;
     font-size: 14px;
     font-weight: bold;
     margin: 0px;

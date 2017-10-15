@@ -30,7 +30,7 @@ class Menu extends React.Component{
                         <a href="/"><span>Indian white<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                             { ChinaStone.map(s =>(
-                                <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
+                                <li key={s.id}><a href ="/repos/1" onClick={() => filterShowOne(s.id)}>
                                   <img className="imgprox" src={s.src}/>
                                   <h5>{s.description}</h5>	
                                 </a></li>     

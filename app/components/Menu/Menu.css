@@ -10,7 +10,7 @@
 	padding: 0;
 	float: left;
 	width: 100%;
-    background: #ce9d00 none center center repeat-x; /*default background of menu bar*/
+    background: #563d7c none center center repeat-x; /*default background of menu bar*/
     position: absolute;
 }
 
@@ -28,7 +28,7 @@
 	color: white;
 	padding: 10px 4px;
 	text-decoration: none;
-	text-shadow: 1px 1px #a77510;
+	text-shadow: 1px 1px #563d7c;
 }
 
 .droplinebar ul li a:visited{
@@ -69,7 +69,7 @@
 }
 .droplinebar ul li a:hover, .droplinebar ul li .current{ /*background of main menu bar links onMouseover*/
 	color: white;
-  background-color: #ac8301;
+  background-color: #302047;
 }
 ul.oc-outer {
 
@@ -80,7 +80,7 @@ ul.oc-outer {
 	z-index: 999;
 	left: 0;
 	top: 0;
-	background: #ac8301; /*sub menu background color */
+	background: #563d7c; /*sub menu background color */
 	visibility: hidden;
   	height:33px;
 }
@@ -99,9 +99,9 @@ ul.oc-outer {
 	background: #ffffff; /*sub menu background color */
 	visibility: hidden;
 	height:auto !important;
-	border-bottom: 1px solid #ac8301;
-	border-left: 1px solid #ac8301;
-	border-right: 1px solid #ac8301;
+	border-bottom: 1px solid #563d7c;
+	border-left: 1px solid #563d7c;
+	border-right: 1px solid #563d7c;
 	padding-right:2px;
 }
 .droplinebar ul li ul li ul{
@@ -112,9 +112,9 @@ ul.oc-outer {
 	background: #ffffff; /*sub menu background color */
 	visibility: hidden;
 	height:auto !important;
-	border-bottom: 1px solid #ac8301;
-	border-left: 1px solid #ac8301;
-	border-right: 1px solid #ac8301;
+	border-bottom: 1px solid #563d7c;
+	border-left: 1px solid #563d7c;
+	border-right: 1px solid #563d7c;
 	width:99.7% !important;
 }
 .droplinebar ul li ul li ul li a:visited{
@@ -126,7 +126,7 @@ ul.oc-outer {
 	z-index: 999;
 }
 .droplinebar ul li ul li ul li a:hover{
-	color: #ce9d00;
+	color: #302047;
 }
 /* Sub level menu links style */
 .droplinebar ul li ul li a{
@@ -150,7 +150,7 @@ ul.oc-outer {
 	width: 80px;
 }
 .droplinebar ul li ul li ul li a.readmorepro:hover{
-	border: 1px solid #CE9D00;
+	border: 1px solid #563d7c;
 }
 ul.fixmenu li{
 	padding:2px 0px !important;
@@ -173,7 +173,7 @@ ul.fixmenu li{
 } */
 
 #ul13 li{
-  border-left: 1px solid rgb(206, 128, 11);
+  border-left: 1px solid rgb(77, 76, 73);
 }
 .oc-left:hover #ul13{
   display: block;

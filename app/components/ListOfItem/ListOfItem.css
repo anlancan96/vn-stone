@@ -1,0 +1,448 @@
+.main {
+	background-color: #f0f0f0;
+}
+.main-raised, .single .main-raised {
+    margin-top: 42px;
+    margin-bottom: 30px;
+}
+.main-raised {
+    border-radius: 6px 6px 0 0;
+    -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.main {
+    position: relative;
+    background: #fff;
+}
+.blog-post {
+	padding-right: 0;
+	padding-left: 0;
+}
+.blog-post {
+    word-wrap: break-word;
+    line-height: 25.2px;
+}
+.container {
+    max-width: 100%;
+}
+.blog-post .section {
+	padding: 0 15px 70px;
+}
+.blog-post .section-text {
+    padding-bottom: 0;
+    font-size: 16.8px;
+}
+.section, .section-image {
+    background-position: center center;
+    background-size: cover;
+}
+.content-full.col-md-12 {
+    padding: 0;
+}
+.blog-post .products {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.products ul, ul.products {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style: none outside;
+    clear: both;
+}
+.products{
+    margin-bottom: 30px;
+    line-height: 25.2px;
+}
+ul.products li.product {
+	width: 25%;
+	margin: 0;
+	padding: 0 15px;
+	background: transparent;
+	box-shadow: none;
+}
+.woocommerce-page ul.products li.first{clear:both}
+.woocommerce-page ul.products li.product{
+    float:left;
+    margin:0 3.8% 2.992em 0;
+    padding:0;
+    position:relative;
+    width:22.05%;
+    margin-left:0
+}
+.woocommerce .product .card-product {
+	text-align: center;
+}
+.card-product {
+    margin-top: 30px;
+}
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.card > .card-image,
+.product > .card > .card-image {
+	box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card > .card-image:hover {
+	box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5), 0 5px 25px 0 rgba(0, 0, 0, 0.12), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+	-webkit-transform: translate(0, -10px);
+	-ms-transform: translate(0, -10px);
+	transform: translate(0, -10px);
+}
+.card .card-image, .card .header, .card-profile .card-avatar, .card-testimonial .card-avatar img, .card-raised, .img-raised, .iframe-container iframe {
+    -webkit-box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.card .card-image {
+    overflow: hidden;
+    position: relative;
+    height: 60%;
+    margin-top: -30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 6px;
+    -webkit-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+    -moz-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+    -o-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+    -ms-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+    transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.card .card-image img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    /* WooCommerce fix */
+    margin: 0 !important;
+    border-radius: 6px;
+}
+.woocommerce ul.products li.product a{text-decoration:none}
+.woocommerce ul.products li.product a img{width:100%;height:auto;display:block;margin:0 0 1em;box-shadow:none}
+.card .content {
+    padding: 15px 30px;
+}
+.card .category:not([class*="text-"]) {
+    color: #999999;  
+}
+.card-product .category {
+    font-size: 13px;
+}
+.card-product .card-title,
+.card-product .category,
+.card-product .card-description {
+  text-align: center;
+}
+h6 {
+    font-size: 12.6px;
+    line-height: 18.9px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+}
+.hestia-title, .hestia-title a, .title, .title a, .card-title, .card-title a, .info-title, .info-title a, .footer-brand, .footer-brand a, .footer-big h4, .footer-big h4 a, .footer-big h5, .footer-big h5 a, .media .media-heading, .media .media-heading a, .woocommerce.archive .blog-post .products .product-category h2, .woocommerce.archive .blog-post .products .product-category h2 a {
+    color: #3C4858;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce.archive .blog-post .products .product-category h2 {
+    font-family: "Roboto Slab", "Times New Roman", serif;
+    font-weight: 700;
+}
+h4 {
+    font-size: 18.2px;
+    line-height: 28.21px;
+}
+.description, .card-description, .footer-big {
+    color: #999999;
+}
+.woocommerce .product .card-product .card-description p {
+	margin-bottom: 10px;
+	color: #999;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+}
+.woocommerce .product .card-product .footer {
+	text-align: left;
+}
+.card-product .footer {
+    display: table;
+    margin-top: 5px;
+    width: 100%;
+}
+.woocommerce ul.products li.product .price {
+	color: #3c4858;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 1.2;
+	text-align: left;
+}
+.woocommerce ul.products li.product .price{color:#77a464;display:block;font-weight:400;margin-bottom:.5em;font-size:.857em}
+.card-product .footer .price {
+    display: table-cell !important;
+    vertical-align: top;
+    text-align: left;
+}
+.card-product .footer .price h4 {
+    color: #3C4858;
+    line-height: 1.2;
+    margin-bottom: 0;
+}  
+h4 {
+    font-size: 18.2px;
+    line-height: 28.21px;
+}
+.card-product .footer .stats {
+    display: table-cell !important;
+    padding-left: 10px;
+    vertical-align: bottom;
+    float: none;
+    text-align: right;
+}
+.card .footer .author,
+.card .footer .stats {
+  color: #999999;
+}
+.card .footer .stats {
+    float: right;
+    line-height: 30px;
+}
+.card .footer .stats .fa {
+    position: relative;
+    top: 4px;
+    font-size: 18px;
+}
+.card-product .footer .stats .fa {
+    top: 0;
+    margin-bottom: 2px;
+}
+.fa {
+    position: relative;
+    top: -1px;
+    font-size: 17px;
+    vertical-align: middle;
+}
+.btn.btn-simple, .btn.btn-simple:hover, .btn.btn-simple:focus, .btn.btn-simple:active,
+.btn.btn-default.btn-simple,
+.btn.btn-default.btn-simple:hover,
+.btn.btn-default.btn-simple:focus,
+.btn.btn-default.btn-simple:active {
+  color: #999999;
+  background-color: transparent;
+}
+
+button, input[type="submit"], input[type="button"], .btn.btn-primary {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active, input[type="button"]:hover, input[type="button"]:focus, input[type="button"]:active, .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+  -moz-box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+}
+
+.btn.btn-primary.btn-simple, .btn.btn-primary.btn-simple:hover, .btn.btn-primary.btn-simple:focus, .btn.btn-primary.btn-simple:active {
+  color: #9c27b0;
+  background-color: transparent;
+}
+
+button,
+button:hover,
+input[type="submit"],
+input[type="submit"]:hover,
+input[type="button"],
+input[type="button"]:hover,
+input#searchsubmit,
+.btn.btn-primary,
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active,
+.btn.btn-primary:active:focus,
+.btn.btn-primary:active:hover,
+.btn.btn-primary.active:focus,
+.btn.btn-primary.active:hover,
+.open > .btn.btn-primary.dropdown-toggle,
+.open > .btn.btn-primary.dropdown-toggle:focus,
+.open > .btn.btn-primary.dropdown-toggle:hover {
+  color: #fff;
+  background-color: #9c27b0;
+}
+
+.btn.btn-danger {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(244, 67, 54, 0.14), 0 3px 1px -2px rgba(244, 67, 54, 0.2), 0 1px 5px 0 rgba(244, 67, 54, 0.12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(244, 67, 54, 0.14), 0 3px 1px -2px rgba(244, 67, 54, 0.2), 0 1px 5px 0 rgba(244, 67, 54, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(244, 67, 54, 0.14), 0 3px 1px -2px rgba(244, 67, 54, 0.2), 0 1px 5px 0 rgba(244, 67, 54, 0.12);
+}
+.btn.btn-danger:hover, .btn.btn-danger:focus, .btn.btn-danger:active {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(244, 67, 54, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(244, 67, 54, 0.2);
+  -moz-box-shadow: 0 14px 26px -12px rgba(244, 67, 54, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(244, 67, 54, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(244, 67, 54, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(244, 67, 54, 0.2);
+}
+
+.btn.btn-danger.btn-simple,
+.btn.btn-danger.btn-simple:hover,
+.btn.btn-danger.btn-simple:focus,
+.btn.btn-danger.btn-simple:active,
+.btn.btn-danger,
+.btn.btn-danger:hover,
+.btn.btn-danger:focus,
+.btn.btn-danger:active,
+.btn.btn-danger.active,
+.btn.btn-danger:active:focus,
+.btn.btn-danger:active:hover,
+.btn.btn-danger.active:focus,
+.btn.btn-danger.active:hover,
+.open > .btn.btn-danger.dropdown-toggle,
+.open > .btn.btn-danger.dropdown-toggle:focus,
+.open > .btn.btn-danger.dropdown-toggle:hover {
+  color: #fff;
+  background-color: #f44336;
+}
+
+.btn.btn-rose {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(233, 30, 99, 0.14), 0 3px 1px -2px rgba(233, 30, 99, 0.2), 0 1px 5px 0 rgba(233, 30, 99, 0.12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(233, 30, 99, 0.14), 0 3px 1px -2px rgba(233, 30, 99, 0.2), 0 1px 5px 0 rgba(233, 30, 99, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(233, 30, 99, 0.14), 0 3px 1px -2px rgba(233, 30, 99, 0.2), 0 1px 5px 0 rgba(233, 30, 99, 0.12);
+}
+.btn.btn-rose:hover, .btn.btn-rose:focus, .btn.btn-rose:active {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+  -moz-box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+}
+
+.btn.btn-rose.btn-simple, .btn.btn-rose.btn-simple:hover, .btn.btn-rose.btn-simple:focus, .btn.btn-rose.btn-simple:active {
+  color: #e91e63;
+  background-color: transparent;
+}
+
+.btn.btn-rose,
+.btn.btn-rose:hover,
+.btn.btn-rose:focus,
+.btn.btn-rose:active,
+.btn.btn-rose.active,
+.btn.btn-rose:active:focus,
+.btn.btn-rose:active:hover,
+.btn.btn-rose.active:focus,
+.btn.btn-rose.active:hover,
+.open > .btn.btn-rose.dropdown-toggle,
+.open > .btn.btn-rose.dropdown-toggle:focus,
+.open > .btn.btn-rose.dropdown-toggle:hover {
+  color: #fff;
+  background-color: #e91e63;
+}
+
+.btn.btn-white {
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+  color: #999999;
+  background-color: #fff;
+}
+.btn.btn-white.btn-white:focus, .btn.btn-white.btn-white:hover {
+  color: #fff;
+  background-color: rgba(153, 153, 153, 0.6);
+}
+.btn.btn-white.btn-simple {
+  color: #fff;
+  background: transparent;
+}
+.btn.btn-round {
+  border-radius: 30px;
+}
+.btn:not(.btn-just-icon):not(.btn-fab) .fa {
+  position: relative;
+  font-size: 18px;
+}
+.btn.btn-just-icon {
+  padding: 12px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.btn.btn-just-icon:hover {
+  box-shadow: none;
+}
+.btn.btn-just-icon i {
+  width: 20px;
+}
+.btn.btn-just-icon.btn-lg {
+  padding: 13px 18px;
+  font-size: 22px;
+}
+.btn.btn-border {
+  background: transparent;
+  border: 1px solid #d2d2d2;
+  color: #999999;
+}
+.btn.btn-border:hover, .btn.btn-border:focus {
+  background: transparent;
+  color: #3C4858;
+}
+
+.btn .fa {
+  position: relative;
+  top: -1px;
+  font-size: 17px;
+  vertical-align: middle;
+}
+
+.navbar button.navbar-toggle, .navbar button.navbar-toggle:hover {
+  color: #555;
+}
+.navbar .button:hover {
+  box-shadow: none !important;
+  color: #e91e63;
+}
+
+.btn.btn-facebook, .btn.btn-facebook:hover, .btn.btn-facebook:focus, .btn.btn-facebook:active,
+.navbar .navbar-nav > li > a.btn.btn-facebook,
+.navbar .navbar-nav > li > a.btn.btn-facebook:hover,
+.navbar .navbar-nav > li > a.btn.btn-facebook:focus,
+.navbar .navbar-nav > li > a.btn.btn-facebook:active {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.btn.btn-facebook,
+.navbar .navbar-nav > li > a.btn.btn-facebook {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12);
+  -moz-box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12);
+}
+.btn.btn-facebook:hover, .btn.btn-facebook:focus, .btn.btn-facebook:active,
+.navbar .navbar-nav > li > a.btn.btn-facebook:hover,
+.navbar .navbar-nav > li > a.btn.btn-facebook:focus,
+.navbar .navbar-nav > li > a.btn.btn-facebook:active {
+  -webkit-box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2);
+  -moz-box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2);
+  box-shadow: 0 14px 26px -12px rgba(59, 89, 152, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(59, 89, 152, 0.2);
+}
+
+.btn.btn-facebook.btn-simple,
+.navbar .navbar-nav > li > a.btn.btn-facebook.btn-simple {
+  color: #3b5998;
+  background-color: transparent;
+}
+
+.btn.btn-twitter, .btn.btn-twitter:hover, .btn.btn-twitter:focus, .btn.btn-twitter:active,
+.navbar .navbar-nav > li > a.btn.btn-twitter,
+.navbar .navbar-nav > li > a.btn.btn-twitter:hover,
+.navbar .navbar-nav > li > a.btn.btn-twitter:focus,
+.navbar .navbar-nav > li > a.btn.btn-twitter:active {
+  color: #fff;
+  background-color: #55acee;
+}

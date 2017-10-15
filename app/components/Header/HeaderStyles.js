@@ -68,7 +68,7 @@ export const ButtonSearch = styled.div`
     right: 0px;
     width: 28px;
     height: 14px;
-    border-left: 1px solid #ce9d00;
+    border-left: 1px solid #623e99;
     cursor: pointer;
     margin: 5px 0px;
 `;
@@ -79,7 +79,7 @@ export const SearchInput = styled.input`
     width: 121px;
     height: 17px;
     display: inline-block;
-    border: 1px solid #ce9d00;
+    border: 1px solid #623e99;
     color: #666;
     font-size: 11px;
 `;

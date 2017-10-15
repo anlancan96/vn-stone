@@ -1,14 +1,15 @@
 import React from 'react';
 import Header from "../components/Header/Header";
 import Menu from "../components/Menu/Menu";
-import Content from "../components/ContentPage2/Page2";
 import {Container} from "./Page2Styles";
+import ListOfItem from "../components/ListOfItem/ListOfItem";
+
 const Page2 = () => {
   return (
     <Container>
       <Header/>
       <Menu/>
-      <Content/>
+      <ListOfItem/>
     </Container>
   );
 };
