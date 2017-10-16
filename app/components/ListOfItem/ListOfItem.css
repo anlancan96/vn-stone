@@ -67,7 +67,8 @@ ul.products li.product {
     padding:0;
     position:relative;
     width:22.05%;
-    margin-left:0
+    margin-left:0;
+    display: inline-block;
 }
 .product .card-product {
 	text-align: center;
