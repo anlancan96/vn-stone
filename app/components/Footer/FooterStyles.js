@@ -66,6 +66,14 @@ export const Column = styled.div`
     line-height: 20px;
 `;
 
+export const Column2 = styled.div`
+    float: left;
+    width: 50%;
+    padding: 0px 10px;
+    height: 120px;
+    line-height: 20px;
+`;
+
 export const InfofooterTitle = styled.h4`
     color: #4f337a;
     font-size: 14px;

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const Head = styled.div`
 font-family: Arial, Helvetica, sans-serif;
 padding-bottom:150px;
-padding-top:5px;
+padding-top:8px;
 `;
 
 export const TopHeader = styled.div`
@@ -61,6 +61,7 @@ export const Search = styled.div`
    z-index: 15;
    display: block;
    padding-top:0px;
+   top: 3px;
 `;
 
 export const ButtonSearch = styled.div`
@@ -85,8 +86,11 @@ export const SearchInput = styled.input`
 `;
 
 export const ImgSearch = styled.img`
-    left: 8px;
+    left: 6px;
+    top: -3px;
     position: absolute;
+    width: 25px;
+    height: 20px;
 `;
 
 export const Logo = styled.div`
@@ -95,6 +99,11 @@ export const Logo = styled.div`
     left: 30%;
     height:40px;
    
+`;
+
+export const H = styled.h1`
+color: #4f337a;
+
 `;
 
 export const ImgLogo = styled.img`

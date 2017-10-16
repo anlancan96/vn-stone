@@ -24,14 +24,6 @@ app.use(Passport.session());
 app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(express.static('public'));
-app.use('/chinaStone', chinaStone);
-app.use('/egyptStone', egyptStone);
-app.use('/indiaStone', indiaStone);
-app.use('/italyStone', italyStone);
-app.use('/spainStone', spainStone);
-app.use('/turkeyStone', turkeyStone);
-app.use('/vietNamStone', vietNamStone);
-
 var option = {
   server: {
       socketOptions: {

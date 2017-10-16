@@ -13,7 +13,6 @@ class ItemController extends Component {
         const parsed = queryString.parse(location.search);
         return Object.values(defaultState).map(s => {
             return s.filter((item) =>{
-                console.log(String(item.id)===parsed.id); //cái này ko lỗi
                if(String(item.id)===parsed.id) {
                    return item;
                 }
@@ -22,8 +21,8 @@ class ItemController extends Component {
     }
     render(){
         const {defaultState} = this.props;
-        const items = this.displayItem(defaultState).map((s) =>{
-            if(s.length!==0)   return <Item item={s}/>
+        const items = this.displayItem(defaultState).map((s,index) =>{
+            if(s.length!==0)   return <Item item={s} key={index}/>
         });
         return (
             <div>

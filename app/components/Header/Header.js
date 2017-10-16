@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {A,TopHeader,Contact,Ul,Li,ImgIcon,Head,
     Search,SearchInput,ButtonSearch,ImgSearch,
-    Logo,ImgLogo} from "./HeaderStyles.js";
+    Logo,ImgLogo,H} from "./HeaderStyles.js";
 
 class Header extends React.Component{
     
@@ -33,7 +33,7 @@ class Header extends React.Component{
                 </Search>     
                 <Logo>
                     <A href="/"/>
-                    <h1>MH International Stone</h1>
+                    <H>MH International Stone</H>
                 </Logo>    
             </TopHeader>    
         </Head>    
@@ -43,11 +43,11 @@ class Header extends React.Component{
 
 Header.defaultProps={
     link:"/",
-    srcIcon1:'http://vinastone.com/image/data/Logo.png',
-    srcIcon2:"http://vinastone.com/image/data/vinastone/Flickr/phoneicon.png",
+    srcIcon1:'m.png',
+    srcIcon2:"phone.png",
     srcIcon3:"http://vinastone.com/image/data/vinastone/Flickr/skypeicon.png",
     srcIcon4:"http://vinastone.com/image/data/vinastone/Flickr/yahooicon.png",
-    srcIcon5:"http://vinastone.com/catalog/view/theme/vinastone/image/button-search.png",
+    srcIcon5:"search.png",
     logo:"Logo.png"
 }
 module.exports = Header;

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {MenuFooter,MenuFooterLeft,Ul,Li,BoxArea,
-        BoxContent,A,CompanyName,P,InfofooterTitle,FooterBot,Column} from "./FooterStyles.js";
+        BoxContent,A,CompanyName,P,InfofooterTitle,FooterBot,Column,Column2} from "./FooterStyles.js";
 
 
 class Footer extends React.Component{
@@ -41,13 +41,13 @@ class Footer extends React.Component{
                         </P>    
                     </Column>
                    
-                    <Column>
+                    <Column2>
                         <InfofooterTitle>Xưởng tại thành phố Cần Thơ</InfofooterTitle>
                         <P>{this.props.Column41}
                             <br/>
                             {this.props.Column42}
                         </P>    
-                    </Column>
+                    </Column2>
                 </FooterBot>    
             </div>    
         );

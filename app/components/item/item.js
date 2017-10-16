@@ -11,7 +11,9 @@ class Item extends Component {
                         <img src={s.src} />
                         <div className="Info">
                         <h1>{s.description}</h1>
-                        <p>Price: contact</p>
+                        <p>Giá: liên hệ</p>
+                        <p>Xuất sứ: {s.Origin} </p>
+                        <p>Đá tự nhiên</p>
                         </div>   
                     </div>    
                     )

@@ -1,5 +1,5 @@
 .main {
-	background-color: #f0f0f0;
+    background-color:rgb(241, 236, 243);
 }
 .main-raised, .single .main-raised {
     margin-top: 42px;
@@ -12,7 +12,8 @@
 }
 .main {
     position: relative;
-    background: #fff;
+    
+    background-color:rgb(241, 236, 243);
 }
 .blog-post {
 	padding-right: 0;
