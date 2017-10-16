@@ -11,18 +11,19 @@ class ItemController extends Component {
     }
     displayItem(defaultState){
         const parsed = queryString.parse(location.search);
-        parseInt(parsed.id);
-        
         return Object.values(defaultState).map(s => {
             return s.filter((item) =>{
-                if(item.id === parsed.id) return item;
+                console.log(String(item.id)===parsed.id); //cái này ko lỗi
+               if(String(item.id)===parsed.id) {
+                   return item;
+                }
             });
         });
     }
     render(){
         const {defaultState} = this.props;
         const items = this.displayItem(defaultState).map((s) =>{
-           return <Item item={s}/>
+            if(s.length!==0)   return <Item item={s}/>
         });
         return (
             <div>

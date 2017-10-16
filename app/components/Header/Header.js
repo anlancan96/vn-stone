@@ -14,24 +14,16 @@ class Header extends React.Component{
                        <Li>
                            <A href={this.props.link}>
                            <ImgIcon alt=""  src={this.props.srcIcon1}/>
-                           MH Internal Co,Ltd
+                           MH International Co,Ltd
                            </A>     
                        </Li>     
                     </Ul>
                     <Ul>
                        <Li>
                            <ImgIcon alt=""  src={this.props.srcIcon2}/>
-                           Hotline: 024.36422489
+                           Hotline: 0905102999 / 0978274294
                        </Li>     
-                    </Ul>
-                    <Ul>
-                       <Li>
-                           <ImgIcon alt=""  src={this.props.srcIcon3}/>
-                           /
-                           <ImgIcon alt=""  src={this.props.srcIcon4}/>
-                           MHStone_suport
-                       </Li>     
-                    </Ul>      
+                    </Ul>    
                 </Contact>   
                 <Search>
                     <ButtonSearch>
@@ -41,7 +33,7 @@ class Header extends React.Component{
                 </Search>     
                 <Logo>
                     <A href="/"/>
-                    <ImgLogo src={this.props.logo}/>
+                    <h1>MH International Stone</h1>
                 </Logo>    
             </TopHeader>    
         </Head>    
@@ -56,6 +48,6 @@ Header.defaultProps={
     srcIcon3:"http://vinastone.com/image/data/vinastone/Flickr/skypeicon.png",
     srcIcon4:"http://vinastone.com/image/data/vinastone/Flickr/yahooicon.png",
     srcIcon5:"http://vinastone.com/catalog/view/theme/vinastone/image/button-search.png",
-    logo:"http://vinastone.com/image/data/Logo_1.png"
+    logo:"Logo.png"
 }
 module.exports = Header;

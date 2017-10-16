@@ -59,7 +59,7 @@ export const FooterBot = styled.div`
 
 export const Column = styled.div`
     float: left;
-    width: 230px;
+    width: 50%;
     padding: 0px 10px;
     border-right: 1px solid #4f337a;
     height: 120px;

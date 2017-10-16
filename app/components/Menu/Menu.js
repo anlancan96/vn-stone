@@ -22,12 +22,15 @@ class Menu extends React.Component{
                     <li className="oc-left">
                         <a href="listStone?type=china"><span>Indian white<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
-                            { ChinaStone.map(s =>(
-                                <li key={s.id}><a href ="/repos/1" onClick={() => filterShowOne(s.id)}>
-                                  <img className="imgprox" src={s.src}/>
-                                  <h5>{s.description}</h5>	
-                                </a></li>     
-                            ))}  
+                            { ChinaStone.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })}  
                           </ul>   
                     </li>                
                   </ul>
@@ -37,24 +40,30 @@ class Menu extends React.Component{
                   <ul className="oc-outer" >           
                     <li className="oc-left">
                         <a href="listStone?type=egypt"><span>Granite Ai Cập<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
-                          <ul className="prox"> 
-                            { Egypt1.map(s =>(
-                                <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                  <img className="imgprox" src={s.src}/>
-                                  <h5>{s.description}</h5>	
-                                </a></li>     
-                            ))}  
+                          <ul className="prox">  
+                            { Egypt1.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })}
                           </ul>  
                     </li>
                     <li className="oc-left">
                       <a href="listStone?type=egypt"><span>Marble Ai Cập<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
-                              { Egypt2.map(s =>(
-                                  <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                    <img className="imgprox" src={s.src}/>
-                                    <h5>{s.description}</h5>	
-                                  </a></li>     
-                              ))}  
+                            { Egypt2.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })} 
                             </ul>
                     </li>                        
                   </ul>
@@ -65,45 +74,57 @@ class Menu extends React.Component{
                     <li className="oc-left">
                         <a href="listStone?type=idian"><span>Kim Sa Trung Ấn Độ<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
-                            { Indian1.map(s =>(
-                                <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                  <img className="imgprox" src={s.src}/>
-                                  <h5>{s.description}</h5>	
-                                </a></li>     
-                            ))}  
+                            { Indian1.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })}
                           </ul>  
                     </li>
                     <li className="oc-left">
                       <a href="listStone?type=idian"><span>Đỏ Hoàng Gia<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
-                              { Indian2.map(s =>(
-                                  <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                    <img className="imgprox" src={s.src}/>
-                                    <h5>{s.description}</h5>	
-                                  </a></li>     
-                              ))}  
+                            { Indian2.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })} 
                             </ul>
                     </li>
                     <li className="oc-left">
                       <a href="listStone?type=idian"><span>Đỏ Ruby<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
-                              { Indian3.map(s =>(
-                                  <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                    <img className="imgprox" src={s.src}/>
-                                    <h5>{s.description}</h5>	
-                                  </a></li>     
-                              ))}  
+                            { Indian3.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })}  
                             </ul>
                     </li>
                     <li className="oc-left">
                       <a href="listStone?type=idian"><span>Nâu Anh Ấn Độ<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
-                              { Indian4.map(s =>(
-                                  <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                    <img className="imgprox" src={s.src}/>
-                                    <h5>{s.description}</h5>	
-                                  </a></li>     
-                              ))}  
+                            { Indian4.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })}  
                             </ul>      
                     </li>                                      
                   </ul>
@@ -115,12 +136,15 @@ class Menu extends React.Component{
                     <li className="oc-left">
                         <a href="/"><span>Marble<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
-                            { Italy.map(s =>(
-                                <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                  <img className="imgprox" src={s.src}/>
-                                  <h5>{s.description}</h5>	
-                                </a></li>     
-                            ))}  
+                          { Italy.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })} 
                           </ul>   
                     </li>                
                   </ul>
@@ -132,12 +156,15 @@ class Menu extends React.Component{
                     <li className="oc-left">
                         <a href="listStone?type=spain"><span>Marble<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
-                            { Spain.map(s =>(
-                                <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                  <img className="imgprox" src={s.src}/>
-                                  <h5>{s.description}</h5>	
-                                </a></li>     
-                            ))}  
+                          { Spain.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })} 
                           </ul>   
                     </li>                
                   </ul>
@@ -149,12 +176,15 @@ class Menu extends React.Component{
                     <li className="oc-left">
                         <a href="listStone?type=turkey"><span>Granite<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
-                            { Turkey.map(s =>(
-                                <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                  <img className="imgprox" src={s.src}/>
-                                  <h5>{s.description}</h5>	
-                                </a></li>     
-                            ))}  
+                          { Turkey.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })}  
                           </ul>   
                     </li>                
                   </ul>
@@ -166,12 +196,15 @@ class Menu extends React.Component{
                     <li className="oc-left">
                         <a href="listStone?type=vietnam"><span>Marble<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
-                            { VietNam.map(s =>(
-                                <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
-                                  <img className="imgprox" src={s.src}/>
-                                  <h5>{s.description}</h5>	
-                                </a></li>     
-                            ))}  
+                          { VietNam.map((s,index) =>{
+                              let link = "product?id=" + s.id;
+                              return  (
+                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                      <img className="imgprox" src={s.src}/>
+                                      <h5>{s.description}</h5>	
+                                    </a></li>     
+                                )
+                            })} 
                           </ul>   
                     </li>                
                   </ul>

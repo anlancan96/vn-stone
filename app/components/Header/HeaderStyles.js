@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const Head = styled.div`
 font-family: Arial, Helvetica, sans-serif;
 padding-bottom:150px;
+padding-top:5px;
 `;
 
 export const TopHeader = styled.div`
@@ -64,7 +65,7 @@ export const Search = styled.div`
 
 export const ButtonSearch = styled.div`
     position: absolute;
-    right: 0px;
+    right: 35px;
     width: 28px;
     height: 14px;
     border-left: 1px solid #623e99;
@@ -91,10 +92,14 @@ export const ImgSearch = styled.img`
 export const Logo = styled.div`
     position: absolute;
     top: 51px;
-    left: 45%;
+    left: 30%;
+    height:40px;
+   
 `;
 
 export const ImgLogo = styled.img`
     cursor: pointer;
     border: none;   
+    height:200px;
+    padding-bottom:40px;
 `;
