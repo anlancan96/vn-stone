@@ -60,8 +60,8 @@ ul.products li.product {
 	background: transparent;
 	box-shadow: none;
 }
-.woocommerce-page ul.products li.first{clear:both}
-.woocommerce-page ul.products li.product{
+ ul.products li.first{clear:both}
+ ul.products li.product{
     float:left;
     margin:0 3.8% 2.992em 0;
     padding:0;
@@ -69,7 +69,7 @@ ul.products li.product {
     width:22.05%;
     margin-left:0
 }
-.woocommerce .product .card-product {
+.product .card-product {
 	text-align: center;
 }
 .card-product {
@@ -128,10 +128,19 @@ ul.products li.product {
     margin: 0 !important;
     border-radius: 6px;
 }
-.woocommerce ul.products li.product a{text-decoration:none}
-.woocommerce ul.products li.product a img{width:100%;height:auto;display:block;margin:0 0 1em;box-shadow:none}
+ ul.products li.product a{text-decoration:none}
+ ul.products li.product a img{width:100%;height:auto;display:block;margin:0 0 1em;box-shadow:none}
 .card .content {
     padding: 15px 30px;
+}
+
+.category a {
+    color: #e91e63;
+    cursor: pointer;
+}
+.card-title :hover{
+    color:#e91e63;
+    cursor: pointer;
 }
 .card .category:not([class*="text-"]) {
     color: #999999;  
@@ -170,14 +179,14 @@ h4 {
 .description, .card-description, .footer-big {
     color: #999999;
 }
-.woocommerce .product .card-product .card-description p {
+.product .card-product .card-description p {
 	margin-bottom: 10px;
 	color: #999;
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 21px;
 }
-.woocommerce .product .card-product .footer {
+ .product .card-product .footer {
 	text-align: left;
 }
 .card-product .footer {
@@ -185,14 +194,14 @@ h4 {
     margin-top: 5px;
     width: 100%;
 }
-.woocommerce ul.products li.product .price {
+ ul.products li.product .price {
 	color: #3c4858;
 	font-size: 17px;
 	font-weight: 300;
 	line-height: 1.2;
 	text-align: left;
 }
-.woocommerce ul.products li.product .price{color:#77a464;display:block;font-weight:400;margin-bottom:.5em;font-size:.857em}
+ ul.products li.product .price{color:#77a464;display:block;font-weight:400;margin-bottom:.5em;font-size:.857em}
 .card-product .footer .price {
     display: table-cell !important;
     vertical-align: top;

@@ -4,6 +4,7 @@ import './ListOfItem.css';
 
 class ListOfItem extends Component {
     render(){
+        console.log(this.props.item);
         return (
             <div className="main main-raised">
                 <div className="blog-post">
