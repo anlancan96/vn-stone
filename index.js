@@ -55,6 +55,8 @@ mongoose.connect("mongodb://localhost/MHStone",option ).then(function(){
 
 app.listen(6969, () => console.log('Server started'))
 app.get('/', (req, res) => res.render('home.ejs'));
+app.get('/product', (req, res) => res.render('home'));
+app.get('/liststone', (req, res) => res.render('home'));
 app.get('/a',(req,res) =>{
     res.render('home');
 })

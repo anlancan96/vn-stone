@@ -13,21 +13,14 @@ class Menu extends React.Component{
           <div id="droplinemenu" className="droplinebar">
             <ul>
                 <li className="home-menu"><a href="/"></a>
-                  <ul className="oc-outer" >  
-                    <li className="oc-left">
-                      <a href="/">Thư viện ứng dụng<img src={this.props.IconDown}/></a>  
-                      <ul id="ul13">
-                      </ul>   
-                    </li>
-                    <li></li> 
-                  </ul> 
+                  
                 </li>
                   
-                <li><a href="/"><span>China Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                <li><a href="listStone?type=china"><span>China Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
-                        <a href="/"><span>Indian white<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="listStone?type=china"><span>Indian white<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                             { ChinaStone.map(s =>(
                                 <li key={s.id}><a href ="/repos/1" onClick={() => filterShowOne(s.id)}>
@@ -40,10 +33,10 @@ class Menu extends React.Component{
                   </ul>
                 </li>
 
-                <li><a href="/"><span>Egypt Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                <li><a href="listStone?type=egypt"><span>Egypt Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >           
                     <li className="oc-left">
-                        <a href="/"><span>Granite Ai Cập<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="listStone?type=egypt"><span>Granite Ai Cập<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                             { Egypt1.map(s =>(
                                 <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
@@ -54,7 +47,7 @@ class Menu extends React.Component{
                           </ul>  
                     </li>
                     <li className="oc-left">
-                      <a href="/"><span>Marble Ai Cập<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                      <a href="listStone?type=egypt"><span>Marble Ai Cập<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
                               { Egypt2.map(s =>(
                                   <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
@@ -67,10 +60,10 @@ class Menu extends React.Component{
                   </ul>
                 </li>
 
-                <li><a href="/"><span>Indian Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                <li><a href="listStone?type=idian"><span>Indian Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >           
                     <li className="oc-left">
-                        <a href="/"><span>Kim Sa Trung Ấn Độ<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="listStone?type=idian"><span>Kim Sa Trung Ấn Độ<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                             { Indian1.map(s =>(
                                 <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
@@ -81,7 +74,7 @@ class Menu extends React.Component{
                           </ul>  
                     </li>
                     <li className="oc-left">
-                      <a href="/"><span>Đỏ Hoàng Gia<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                      <a href="listStone?type=idian"><span>Đỏ Hoàng Gia<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
                               { Indian2.map(s =>(
                                   <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
@@ -92,7 +85,7 @@ class Menu extends React.Component{
                             </ul>
                     </li>
                     <li className="oc-left">
-                      <a href="/"><span>Đỏ Ruby<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                      <a href="listStone?type=idian"><span>Đỏ Ruby<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
                               { Indian3.map(s =>(
                                   <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
@@ -103,7 +96,7 @@ class Menu extends React.Component{
                             </ul>
                     </li>
                     <li className="oc-left">
-                      <a href="/a"><span>Nâu Anh Ấn Độ<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                      <a href="listStone?type=idian"><span>Nâu Anh Ấn Độ<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
                               { Indian4.map(s =>(
                                   <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
@@ -116,7 +109,7 @@ class Menu extends React.Component{
                   </ul>
                 </li>
 
-                <li><a href="/"><span>Italy Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                <li><a href="listStone?type=italy"><span>Italy Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
@@ -133,11 +126,11 @@ class Menu extends React.Component{
                   </ul>
                 </li>
 
-                <li><a href="/"><span>Spain Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                <li><a href="listStone?type=spain"><span>Spain Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
-                        <a href="/"><span>Marble<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="listStone?type=spain"><span>Marble<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                             { Spain.map(s =>(
                                 <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
@@ -150,11 +143,11 @@ class Menu extends React.Component{
                   </ul>
                 </li>
                 
-                <li><a href="/"><span>Turkey Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                <li><a href="listStone?type=turkey"><span>Turkey Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
-                        <a href="/"><span>Granite<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="listStone?type=turkey"><span>Granite<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                             { Turkey.map(s =>(
                                 <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>
@@ -167,11 +160,11 @@ class Menu extends React.Component{
                   </ul>
                 </li>
 
-                <li><a href="/"><span>VietNam Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                <li><a href="listStone?type=vietnam"><span>VietNam Stone<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
-                        <a href="/"><span>Marble<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="listStone?type=vietnam"><span>Marble<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                             { VietNam.map(s =>(
                                 <li key={s.id}><a href="/a" onClick={() => filterShowOne(s.id)}>

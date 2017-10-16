@@ -7,13 +7,14 @@ import { Link } from 'react-router-dom';
 import {Provider} from 'react-redux';
 import store from './store/store';
 import Page2 from './containers/Page2';
-
+import Product from './containers/Product';
 
 ReactDOM.render((
   <Provider store={store}>
      <BrowserRouter>
       <Switch>
-          <Route path="/ChinaStone" component={Page2} />
+          <Route path="/listStone" component={Page2} />
+          <Route path="/product" component={Product} />
           <Route path="/" component={Home} />     
       </Switch>
     </BrowserRouter>  

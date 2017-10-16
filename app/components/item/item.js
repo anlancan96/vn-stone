@@ -9,7 +9,7 @@ class Item extends Component {
                <div className="Info">
                    <h1>Idian white stone 1</h1>
                    <p>Price: contact</p>
-                   <p>Made in: China</p>
+                   <p>{this.props.item}</p>
                </div>    
             </div>    
         )

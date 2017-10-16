@@ -1,28 +1,28 @@
 import React,{Component} from 'react';
-import 'font-awesome/css/font-awesome.min.css';
-import './ListOfItem.css';
+import './item.css';
 import {connect} from 'react-redux';
-import ListOfItem from './ListOfItem';
+import Item from './item';
 import queryString  from 'query-string';
-
-class ListOfItemsController extends Component {
+const parsed = queryString.parse(location.search);
+class ItemController extends Component {
     constructor(props){
         super(props);
-        this.displayItems = this.displayItems.bind(this);
+        this.displayItem = this.displayItem.bind(this);
     }
-    displayItems(defaultState){
-        
+    displayItem(defaultState){
         const parsed = queryString.parse(location.search);
+        parseInt(parsed.id);
+        
         return Object.values(defaultState).map(s => {
             return s.filter((item) =>{
-                if(item.type===parsed.type) return item;
+                if(item.id === parsed.id) return item;
             });
         });
     }
     render(){
         const {defaultState} = this.props;
-        const items = this.displayItems(defaultState).map((s) =>{
-            if(s.length!==0) return <ListOfItem item={s}/>
+        const items = this.displayItem(defaultState).map((s) =>{
+           return <Item item={s}/>
         });
         return (
             <div>
@@ -38,4 +38,4 @@ function mapStateToProps(state){
     }
 }
 
-export default connect(mapStateToProps)(ListOfItemsController);
+export default connect(mapStateToProps)(ItemController);
