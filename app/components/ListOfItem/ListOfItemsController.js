@@ -3,6 +3,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import './ListOfItem.css';
 import {connect} from 'react-redux';
 import ListOfItem from './ListOfItem';
+import queryString  from 'query-string';
 
 class ListOfItemsController extends Component {
     constructor(props){
@@ -13,9 +14,12 @@ class ListOfItemsController extends Component {
         this.displayItems = this.displayItems.bind(this);
     }
     displayItems(defaultState){
+        
+        const parsed = queryString.parse(location.search);
+        console.log(parsed.type);
         return Object.values(defaultState).map(s => {
             return s.filter((item) =>{
-                if(item.type===this.state.type) return item;
+                if(item.type===parsed.type) return item;
             });
         });
     }

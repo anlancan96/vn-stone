@@ -4,7 +4,7 @@ import {Container} from "./HomeStyles";
 import Footer from "../components/Footer/Footer";
 import Louver from "../components/AnimationBox/AnimationBox";
 import Menu from "../components/Menu/Menu";
-import HomeContent from "../components/homeContent/homeContent";
+import Item from "../components/item/Item";
 
 class Home extends React.Component{
   render(){
@@ -12,8 +12,7 @@ class Home extends React.Component{
         <Container>
             <Header/>
             <Menu/>
-            <Louver/>
-            <HomeContent/>
+            <Item/>
             <Footer/>          
         </Container>    
     )
