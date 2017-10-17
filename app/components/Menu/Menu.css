@@ -208,3 +208,15 @@ ul.fixmenu li{
 	height: 80px;
 	width: 80px;
 }
+
+#btn {
+	float: right;
+}
+
+#btn1 {
+	float: left;
+}
+
+#btn2 {
+	float: left;
+}

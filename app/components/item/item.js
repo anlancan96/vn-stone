@@ -6,12 +6,13 @@ class Item extends Component {
         return(
             <div >
                 {this.props.item.map((s,index) =>{
+                    let link = "listStone?type=" + s.type;
                     return( 
                     <div  key={index} >  
                     <div className="breadcrum">
                         <a href="/">Trang chủ</a>   
                         » 
-                        <a href="/">{s.Origin} Stone</a> 
+                        <a href={link}>{s.Origin} Stone</a> 
                         » 
                         <a href="/">Trang chủ</a> 
                     </div>        

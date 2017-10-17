@@ -208,10 +208,13 @@ class Menu extends React.Component{
                           </ul>   
                     </li>                
                   </ul>
-                </li>               
+                </li>    
+                <li id="btn">
+                  <button id="btn1" style={{marginTop:'40px'}} onClick={()=> this.props.setEnSub()}>en</button>
+                  <button id="btn2" style={{marginTop:'40px'}} onClick={()=> this.props.setVnSub()}>vn</button>
+                </li>           
             </ul>
-            <button style={{marginTop:'40px'}} onClick={()=> this.props.setEnSub()}>en</button>
-            <button style={{marginTop:'40px'}} onClick={()=> this.props.setVnSub()}>vn</button>
+            
           </div>      
         )
     }

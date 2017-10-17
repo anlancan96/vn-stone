@@ -16,7 +16,7 @@ ReactDOM.render((
       <Switch>
           <Route path="/listStone" component={Page2} />
           <Route path="/product" component={Product} />
-          <Route path="/a" component={SearchInterface}/> 
+          <Route path="/search" component={SearchInterface}/> 
           <Route path="/" component={Home} />     
       </Switch>
     </BrowserRouter>  

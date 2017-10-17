@@ -6,13 +6,16 @@ import $ from 'jquery';
 import {Link} from 'react-router-dom';
 class Header extends React.Component{
     componentDidMount(){
-        $('.key').on("keyup",function(e){
+       
+        $('.key').keypress(function(e){
+            var value = $(this).val();
+            let link = "/search?data=" + value;
             if(e.keyCode == 13){
-                var value = $(this).val();
-                SearchValue(value);
+                window.location.href = link;
             }
         });
     }
+    
     render(){
     return(
        <Head>
