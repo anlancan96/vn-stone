@@ -208,11 +208,19 @@ class Menu extends React.Component{
                           </ul>   
                     </li>                
                   </ul>
-                </li>    
-                <li id="btn">
-                  <button id="btn1" style={{marginTop:'40px'}} onClick={()=> this.props.setEnSub()}>en</button>
-                  <button id="btn2" style={{marginTop:'40px'}} onClick={()=> this.props.setVnSub()}>vn</button>
-                </li>           
+                </li>   
+                <li><a href="/"><span>{(whatLanguage==='en')?"Leanguge":"Ngôn ngữ"}<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                  <ul className="oc-outer" >
+                    
+                    <li className="oc-left">
+                        <a onClick={()=> this.props.setEnSub()} className="sub"><span >English</span></a>
+                    </li>     
+                    <li className="oc-left">
+                        <a onClick={()=> this.props.setVnSub()} className="sub"><span >Việt Nam</span></a>
+                    </li>            
+                  </ul>
+                </li>     
+                         
             </ul>
             
           </div>      

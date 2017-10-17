@@ -5172,20 +5172,50 @@ var Menu = function (_React$Component) {
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'li',
-            { id: 'btn' },
+            null,
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'button',
-              { id: 'btn1', style: { marginTop: '40px' }, onClick: function onClick() {
-                  return _this2.props.setEnSub();
-                } },
-              'en'
+              'a',
+              { href: '/' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'span',
+                null,
+                whatLanguage === 'en' ? "Leanguge" : "Ngôn ngữ",
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: this.props.IconDown, className: 'downarrowclassName' })
+              )
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-              'button',
-              { id: 'btn2', style: { marginTop: '40px' }, onClick: function onClick() {
-                  return _this2.props.setVnSub();
-                } },
-              'vn'
+              'ul',
+              { className: 'oc-outer' },
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                { className: 'oc-left' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { onClick: function onClick() {
+                      return _this2.props.setEnSub();
+                    }, className: 'sub' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'span',
+                    null,
+                    'English'
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'li',
+                { className: 'oc-left' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'a',
+                  { onClick: function onClick() {
+                      return _this2.props.setVnSub();
+                    }, className: 'sub' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'span',
+                    null,
+                    'Vi\u1EC7t Nam'
+                  )
+                )
+              )
             )
           )
         )
@@ -19108,7 +19138,7 @@ exports = module.exports = __webpack_require__(21)(undefined);
 
 
 // module
-exports.push([module.i, ".droplinebar{\r\n\tmargin-bottom: 20px;\r\n\toverflow: hidden;\r\n    width: 1005px;\r\n}\r\n\r\n.droplinebar ul{\r\n  font-size: 12px;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tfloat: left;\r\n\twidth: 100%;\r\n    background: #563d7c none center center repeat-x; /*default background of menu bar*/\r\n    position: absolute;\r\n}\r\n\r\n.droplinebar ul li{\r\n\tdisplay: inline;\r\n\tfloat: left;\r\n\tpadding: 0px;\r\n\tz-index: 999;\r\n}\r\n.droplinebar ul li li{\r\n\tpadding:2px 5px;\r\n}\r\n.droplinebar ul li a{\r\n\tfloat: left;\r\n\tcolor: white;\r\n\tpadding: 10px 4px;\r\n\ttext-decoration: none;\r\n\ttext-shadow: 1px 1px #563d7c;\r\n}\r\n\r\n.droplinebar ul li a:visited{\r\n\tcolor: white;\r\n}\r\n.droplinebar > ul > li.home-menu > a > img.downarrowclass{\r\n\tdisplay:none;\r\n}\r\n.droplinebar > ul > li.home-menu >a {\r\n\tbackground: url(\"http://vinastone.com/catalog/view/theme/vinastone/image/home.png\") no-repeat scroll center center transparent;\r\n\theight:36px;\r\n\twidth: 35px;\r\n\tdisplay:block;\r\n}\r\n.droplinebar > ul > li + li {\r\n\tborder-left: 1px solid rgb(255, 255, 255);\r\n}\r\n.droplinebar  ul  li ul  li ul li img.downarrowclass{\r\n\tdisplay:none;\r\n}\r\n.droplinebar  ul  li ul  li + li {\r\n\tbackground: url(\"\") no-repeat scroll left 12px transparent;\r\n}\r\n.droplinebar  ul.prox h5{\r\n\tmargin:0px;\r\n\tpadding:0px;\r\n\ttext-align:center;\r\n\tfont-size:12px;\r\n}\r\n.droplinebar  ul.prox li{\r\n\twidth:99px;\r\n}\r\n.droplinebar  ul.prox  li + li {\r\n\tbackground:none;\r\n}\r\n.droplinebar  ul  li ul li ul  li + li {\r\n\tbackground: url(\"\") no-repeat scroll left 12px transparent;\r\n}\r\n.droplinebar ul li a:hover, .droplinebar ul li .current{ /*background of main menu bar links onMouseover*/\r\n\tcolor: white;\r\n  background-color: #302047;\r\n}\r\nul.oc-outer {\r\n\r\n}\r\n/* Sub level menus*/\r\n.droplinebar ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: 0;\r\n\ttop: 0;\r\n\tbackground: #563d7c; /*sub menu background color */\r\n\tvisibility: hidden;\r\n  \theight:33px;\r\n}\r\n.droplinebar img.imgprox{\r\n\tborder: 1px solid #EFE7D8;\r\n\tpadding: 3px 3px 3px;\r\n}\r\n.droplinebar img.imgprox:hover{\r\n\tborder: 1px solid #666;\r\n}\r\n.droplinebar ul li ul li ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: -1px !important;\r\n\ttop: 0;\r\n\tbackground: #ffffff; /*sub menu background color */\r\n\tvisibility: hidden;\r\n\theight:auto !important;\r\n\tborder-bottom: 1px solid #563d7c;\r\n\tborder-left: 1px solid #563d7c;\r\n\tborder-right: 1px solid #563d7c;\r\n\tpadding-right:2px;\r\n}\r\n.droplinebar ul li ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: 0;\r\n\ttop: 31px !important;\r\n\tbackground: #ffffff; /*sub menu background color */\r\n\tvisibility: hidden;\r\n\theight:auto !important;\r\n\tborder-bottom: 1px solid #563d7c;\r\n\tborder-left: 1px solid #563d7c;\r\n\tborder-right: 1px solid #563d7c;\r\n\twidth:99.7% !important;\r\n}\r\n.droplinebar ul li ul li ul li a:visited{\r\n\tcolor:#666;\r\n}\r\n.droplinebar ul li ul li ul li a{\r\n\tcolor:#666666;\r\n\ttext-shadow: none;\r\n\tz-index: 999;\r\n}\r\n.droplinebar ul li ul li ul li a:hover{\r\n\tcolor: #302047;\r\n}\r\n/* Sub level menu links style */\r\n.droplinebar ul li ul li a{\r\n\tpadding: 6px 6px 6px 6px;\r\n\tmargin: 0;\r\n}\r\n\r\n.droplinebar ul li ul li a:hover{ /*sub menu links' background color onMouseover */\r\n\tbackground: url(\"\") no-repeat scroll center 26px transparent;\r\n}\r\n/*Group customer*/\r\n#list-customer ul li a{\r\n\tcolor:#666;\r\n}\r\n.droplinebar ul li ul li ul li a.readmorepro:link, .droplinebar ul li ul li ul li a.readmorepro:visited{\r\n\tborder: 1px solid #EFE7D8;\r\n\tfont-weight: bold;\r\n\tmargin-top: 6px;\r\n\tpadding: 35px 3px 34px;\r\n\ttext-align: center;\r\n\twidth: 80px;\r\n}\r\n.droplinebar ul li ul li ul li a.readmorepro:hover{\r\n\tborder: 1px solid #563d7c;\r\n}\r\nul.fixmenu li{\r\n\tpadding:2px 0px !important;\r\n}\r\n.droplinebar ul li ul{\r\n  position: absolute;\r\n  height: 31px; \r\n  visibility: visible;\r\n  width: 1006px; \r\n  left: 7px;\r\n  top: 43px; \r\n  display: none;  \r\n}\r\n.droplinebar ul li ul li{\r\n  \r\n\tborder-left: 1px solid rgb(255, 255, 255);\r\n}\r\n/* .home-menu:hover .oc-outer{\r\n  display: block;\r\n} */\r\n\r\n#ul13 li{\r\n  border-left: 1px solid rgb(77, 76, 73);\r\n}\r\n.oc-left:hover #ul13{\r\n  display: block;\r\n  \r\n}\r\n\r\n.droplinebar ul li:hover > ul{\r\n  display: block;\r\n}\r\n\r\n.droplinebar ul li ul{\r\n    left: -1px;\r\n    top:35px;\r\n}\r\n\r\n.droplinebar ul li ul li:hover ul{\r\n  display: block;\r\n}\r\n\r\n.droplinebar ul li ul li ul{\r\n left: 1px;\r\n top: 26px; \r\n visibility: visible;\r\n width: 1005px;\r\n  }\r\n\r\n.downarrowclassName{\r\n padding-left: 3px;\r\n}\r\n\r\n.imgprox{\r\n\theight: 80px;\r\n\twidth: 80px;\r\n}\r\n\r\n#btn {\r\n\tfloat: right;\r\n}\r\n\r\n#btn1 {\r\n\tfloat: left;\r\n}\r\n\r\n#btn2 {\r\n\tfloat: left;\r\n}", ""]);
+exports.push([module.i, ".droplinebar{\r\n\tmargin-bottom: 20px;\r\n\toverflow: hidden;\r\n    width: 1005px;\r\n}\r\n\r\n.droplinebar ul{\r\n  font-size: 12px;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tfloat: left;\r\n\twidth: 100%;\r\n    background: #563d7c none center center repeat-x; /*default background of menu bar*/\r\n    position: absolute;\r\n}\r\n\r\n.droplinebar ul li{\r\n\tdisplay: inline;\r\n\tfloat: left;\r\n\tpadding: 0px;\r\n\tz-index: 999;\r\n}\r\n.droplinebar ul li li{\r\n\tpadding:2px 5px;\r\n}\r\n.droplinebar ul li a{\r\n\tfloat: left;\r\n\tcolor: white;\r\n\tpadding: 10px 4px;\r\n\ttext-decoration: none;\r\n\ttext-shadow: 1px 1px #563d7c;\r\n}\r\n\r\n.droplinebar ul li a:visited{\r\n\tcolor: white;\r\n}\r\n.droplinebar > ul > li.home-menu > a > img.downarrowclass{\r\n\tdisplay:none;\r\n}\r\n.droplinebar > ul > li.home-menu >a {\r\n\tbackground: url(\"http://vinastone.com/catalog/view/theme/vinastone/image/home.png\") no-repeat scroll center center transparent;\r\n\theight:36px;\r\n\twidth: 35px;\r\n\tdisplay:block;\r\n}\r\n.droplinebar > ul > li + li {\r\n\tborder-left: 1px solid rgb(255, 255, 255);\r\n}\r\n.droplinebar  ul  li ul  li ul li img.downarrowclass{\r\n\tdisplay:none;\r\n}\r\n.droplinebar  ul  li ul  li + li {\r\n\tbackground: url(\"\") no-repeat scroll left 12px transparent;\r\n}\r\n.droplinebar  ul.prox h5{\r\n\tmargin:0px;\r\n\tpadding:0px;\r\n\ttext-align:center;\r\n\tfont-size:12px;\r\n}\r\n.droplinebar  ul.prox li{\r\n\twidth:99px;\r\n}\r\n.droplinebar  ul.prox  li + li {\r\n\tbackground:none;\r\n}\r\n.droplinebar  ul  li ul li ul  li + li {\r\n\tbackground: url(\"\") no-repeat scroll left 12px transparent;\r\n}\r\n.droplinebar ul li a:hover, .droplinebar ul li .current{ /*background of main menu bar links onMouseover*/\r\n\tcolor: white;\r\n  background-color: #302047;\r\n}\r\nul.oc-outer {\r\n\r\n}\r\n/* Sub level menus*/\r\n.droplinebar ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: 0;\r\n\ttop: 0;\r\n\tbackground: #563d7c; /*sub menu background color */\r\n\tvisibility: hidden;\r\n  \theight:33px;\r\n}\r\n.droplinebar img.imgprox{\r\n\tborder: 1px solid #EFE7D8;\r\n\tpadding: 3px 3px 3px;\r\n}\r\n.droplinebar img.imgprox:hover{\r\n\tborder: 1px solid #666;\r\n}\r\n.droplinebar ul li ul li ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: -1px !important;\r\n\ttop: 0;\r\n\tbackground: #ffffff; /*sub menu background color */\r\n\tvisibility: hidden;\r\n\theight:auto !important;\r\n\tborder-bottom: 1px solid #563d7c;\r\n\tborder-left: 1px solid #563d7c;\r\n\tborder-right: 1px solid #563d7c;\r\n\tpadding-right:2px;\r\n}\r\n.droplinebar ul li ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: 0;\r\n\ttop: 31px !important;\r\n\tbackground: #ffffff; /*sub menu background color */\r\n\tvisibility: hidden;\r\n\theight:auto !important;\r\n\tborder-bottom: 1px solid #563d7c;\r\n\tborder-left: 1px solid #563d7c;\r\n\tborder-right: 1px solid #563d7c;\r\n\twidth:99.7% !important;\r\n}\r\n.droplinebar ul li ul li ul li a:visited{\r\n\tcolor:#666;\r\n}\r\n.droplinebar ul li ul li ul li a{\r\n\tcolor:#666666;\r\n\ttext-shadow: none;\r\n\tz-index: 999;\r\n}\r\n.droplinebar ul li ul li ul li a:hover{\r\n\tcolor: #302047;\r\n}\r\n/* Sub level menu links style */\r\n.droplinebar ul li ul li a{\r\n\tpadding: 6px 6px 6px 6px;\r\n\tmargin: 0;\r\n}\r\n\r\n.droplinebar ul li ul li a:hover{ /*sub menu links' background color onMouseover */\r\n\tbackground: url(\"\") no-repeat scroll center 26px transparent;\r\n}\r\n/*Group customer*/\r\n#list-customer ul li a{\r\n\tcolor:#666;\r\n}\r\n.droplinebar ul li ul li ul li a.readmorepro:link, .droplinebar ul li ul li ul li a.readmorepro:visited{\r\n\tborder: 1px solid #EFE7D8;\r\n\tfont-weight: bold;\r\n\tmargin-top: 6px;\r\n\tpadding: 35px 3px 34px;\r\n\ttext-align: center;\r\n\twidth: 80px;\r\n}\r\n.droplinebar ul li ul li ul li a.readmorepro:hover{\r\n\tborder: 1px solid #563d7c;\r\n}\r\nul.fixmenu li{\r\n\tpadding:2px 0px !important;\r\n}\r\n.droplinebar ul li ul{\r\n  position: absolute;\r\n  height: 31px; \r\n  visibility: visible;\r\n  width: 1006px; \r\n  left: 7px;\r\n  top: 43px; \r\n  display: none;  \r\n}\r\n.droplinebar ul li ul li{\r\n  \r\n\tborder-left: 1px solid rgb(255, 255, 255);\r\n}\r\n/* .home-menu:hover .oc-outer{\r\n  display: block;\r\n} */\r\n\r\n#ul13 li{\r\n  border-left: 1px solid rgb(77, 76, 73);\r\n}\r\n.oc-left:hover #ul13{\r\n  display: block;\r\n  \r\n}\r\n\r\n.droplinebar ul li:hover > ul{\r\n  display: block;\r\n}\r\n\r\n.droplinebar ul li ul{\r\n    left: -1px;\r\n    top:35px;\r\n}\r\n\r\n.droplinebar ul li ul li:hover ul{\r\n  display: block;\r\n}\r\n\r\n.droplinebar ul li ul li ul{\r\n left: 1px;\r\n top: 26px; \r\n visibility: visible;\r\n width: 1005px;\r\n  }\r\n\r\n.downarrowclassName{\r\n padding-left: 3px;\r\n}\r\n\r\n.imgprox{\r\n\theight: 80px;\r\n\twidth: 80px;\r\n}\r\n\r\n.sub {\r\n\tcursor: pointer;\r\n}\r\n\r\n", ""]);
 
 // exports
 

@@ -209,14 +209,7 @@ ul.fixmenu li{
 	width: 80px;
 }
 
-#btn {
-	float: right;
+.sub {
+	cursor: pointer;
 }
 
-#btn1 {
-	float: left;
-}
-
-#btn2 {
-	float: left;
-}
