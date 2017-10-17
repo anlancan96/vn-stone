@@ -8,6 +8,7 @@ import {Provider} from 'react-redux';
 import store from './store/store';
 import Page2 from './containers/Page2';
 import Product from './containers/Product';
+import SearchInterface from './containers/SearchInterface';
 
 ReactDOM.render((
   <Provider store={store}>
@@ -15,6 +16,7 @@ ReactDOM.render((
       <Switch>
           <Route path="/listStone" component={Page2} />
           <Route path="/product" component={Product} />
+          <Route path="/a" component={SearchInterface}/> 
           <Route path="/" component={Home} />     
       </Switch>
     </BrowserRouter>  

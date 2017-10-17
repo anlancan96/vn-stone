@@ -2,10 +2,18 @@ import React, {Component} from 'react';
 import {A,TopHeader,Contact,Ul,Li,ImgIcon,Head,
     Search,SearchInput,ButtonSearch,ImgSearch,
     Logo,ImgLogo,H} from "./HeaderStyles.js";
-
+import $ from 'jquery';
+import {Link} from 'react-router-dom';
 class Header extends React.Component{
-    
-  render(){
+    componentDidMount(){
+        $('.key').on("keyup",function(e){
+            if(e.keyCode == 13){
+                var value = $(this).val();
+                SearchValue(value);
+            }
+        });
+    }
+    render(){
     return(
        <Head>
             <TopHeader>
@@ -26,10 +34,10 @@ class Header extends React.Component{
                     </Ul>    
                 </Contact>   
                 <Search>
-                    <ButtonSearch>
+                <Link to={"/a"} id="button"><ButtonSearch>
                        <ImgSearch src={this.props.srcIcon5}/>
-                    </ButtonSearch>    
-                    <SearchInput/>
+                    </ButtonSearch></Link>    
+                    <SearchInput className="key"/>
                 </Search>     
                 <Logo>
                     <A href="/"/>
