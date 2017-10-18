@@ -45,7 +45,7 @@ class ListOfItem extends Component {
                                                                 </h4>
                                                                 <h4>
                                                                     <span className="woocommerce-Price-amount amount">
-                                                                        <span className="woocommerce-Price-currencySymbol"><img src="price.png" style={{width: '20px',height: '20px'}}/>   Price:</span>
+                                                                        <span className="woocommerce-Price-currencySymbol"><img src="price.png" style={{width: '20px',height: '20px'}}/>{whatLanguage === 'en' ? "  Price:" : "  Giá:"}</span>
                                                                         {whatLanguage === 'en' ? " Contact" : " Liên hệ"}
                                                                     </span>
                                                                 </h4>
