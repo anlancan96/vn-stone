@@ -18123,6 +18123,7 @@ var Item = function (_Component) {
                 null,
                 this.props.item.map(function (s, index) {
                     var link = "listStone?type=" + s.type;
+                    var linkOp = "option?op=" + s.optionEn.toLowerCase();
                     return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'div',
                         { key: index },
@@ -18143,7 +18144,7 @@ var Item = function (_Component) {
                             '\xBB',
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                                 'a',
-                                { href: '/' },
+                                { href: linkOp },
                                 whatLanguage === 'en' ? s.optionEn : s.optionVn
                             )
                         ),

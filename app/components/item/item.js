@@ -9,6 +9,7 @@ class Item extends Component {
             <div >
                 {this.props.item.map((s,index) =>{
                     let link = "listStone?type=" + s.type;
+                    let linkOp = "option?op=" + s.optionEn.toLowerCase();
                     return( 
                     <div  key={index} >  
                     <div className="breadcrum">
@@ -16,7 +17,7 @@ class Item extends Component {
                         » 
                         <a href={link}>{whatLanguage === 'en'? s.Origin+ " Stone":"Đá " + s.OriginVn}</a> 
                         » 
-                        <a href="/">{whatLanguage === 'en' ? s.optionEn:s.optionVn}</a> 
+                        <a href={linkOp}>{whatLanguage === 'en' ? s.optionEn:s.optionVn}</a> 
                     </div>        
                     <div className="Container">
                        
