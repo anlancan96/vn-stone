@@ -213,9 +213,12 @@ ul.fixmenu li{
 	cursor: pointer;
 }
 
-.more {
-	padding-top: 5px;
-	padding-left: 3px;
-	position: relative;
-	font-size: 14;
+.droplinebar ul li ul li ul li a.readmorepro:link, .droplinebar ul li ul li ul li a.readmorepro:visited{
+	border: 1px solid #EFE7D8;
+	font-weight: bold;
+	margin-top: 6px;
+	padding: 31px 3px 34px;
+	text-align: center;
+	width: 80px;
+	height: 80px;
 }

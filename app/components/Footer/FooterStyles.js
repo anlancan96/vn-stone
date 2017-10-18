@@ -85,6 +85,6 @@ export const P = styled.p`
     margin: 0px;
     padding: 0px;
     color: #666;
-    font-size:13px;
-    font-weight: 100;
+    font-size:14px;
+    font-weight:300;
 `;

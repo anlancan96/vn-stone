@@ -39,6 +39,8 @@ class Footer extends React.Component{
                             {this.props.Column12}
                             <br/>
                             {this.props.Column13}
+                            <br/>
+                            {this.props.Column14}
                         </P>    
                     </Column>
                    
@@ -59,6 +61,7 @@ Footer.defaultProps={
     Column1:"6A/15A,Nguyễn Cảnh Chân,phường Nguyễn Cư Trinh,Quận 1,thành phố Hồ Chí Minh",
     Column12:"Mr.Mạnh: 0905102999",
     Column13:"Mr.Hiếu: 0978274294",
+    Column14:"Email: hieutran.mh.international@gmail.com",
    
     Column41:"Xưởng Hoàng Sơn:279,Quốc lộ 91B,phường Long Tuyền,quận Bình Thuỷ,thành phố Cần Thơ",
     Column42:""

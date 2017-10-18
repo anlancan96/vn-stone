@@ -4412,7 +4412,9 @@ var Footer = function (_React$Component) {
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
                             this.props.Column12,
                             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
-                            this.props.Column13
+                            this.props.Column13,
+                            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('br', null),
+                            this.props.Column14
                         )
                     ),
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -4443,6 +4445,7 @@ Footer.defaultProps = {
     Column1: "6A/15A,Nguyễn Cảnh Chân,phường Nguyễn Cư Trinh,Quận 1,thành phố Hồ Chí Minh",
     Column12: "Mr.Mạnh: 0905102999",
     Column13: "Mr.Hiếu: 0978274294",
+    Column14: "Email: hieutran.mh.international@gmail.com",
 
     Column41: "Xưởng Hoàng Sơn:279,Quốc lộ 91B,phường Long Tuyền,quận Bình Thuỷ,thành phố Cần Thơ",
     Column42: ""
@@ -4524,7 +4527,7 @@ var Header = function (_React$Component) {
                                     __WEBPACK_IMPORTED_MODULE_1__HeaderStyles_js__["f" /* A */],
                                     { href: this.props.link },
                                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__HeaderStyles_js__["g" /* ImgIcon */], { alt: '', src: this.props.srcIcon1 }),
-                                    'MH International Co,Ltd'
+                                    'MH International Co.,Ltd'
                                 )
                             )
                         ),
@@ -4699,11 +4702,9 @@ var Menu = function (_React$Component) {
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'li',
                     null,
-                    ' ',
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'a',
-                      { className: 'more', href: 'option?op=indian white' },
-                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', null),
+                      { className: 'readmorepro', href: 'option?op=indian white' },
                       'View All'
                     )
                   )
@@ -4759,7 +4760,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=egyptian granite' },
+                      'View All'
+                    )
+                  )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -4794,7 +4804,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=egyptian marble' },
+                      'View All'
+                    )
+                  )
                 )
               )
             )
@@ -4847,7 +4866,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=black galaxy' },
+                      'View All'
+                    )
+                  )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -4882,7 +4910,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=imperial red' },
+                      'View All'
+                    )
+                  )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -4917,7 +4954,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=ruby red' },
+                      'View All'
+                    )
+                  )
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -4952,7 +4998,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=tan brown' },
+                      'View All'
+                    )
+                  )
                 )
               )
             )
@@ -5005,7 +5060,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=italian white' },
+                      'View All'
+                    )
+                  )
                 )
               )
             )
@@ -5058,7 +5122,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=spain brown' },
+                      'View All'
+                    )
+                  )
                 )
               )
             )
@@ -5111,7 +5184,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=turkey' },
+                      'View All'
+                    )
+                  )
                 )
               )
             )
@@ -5164,7 +5246,16 @@ var Menu = function (_React$Component) {
                         )
                       )
                     );
-                  })
+                  }),
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'li',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'a',
+                      { className: 'readmorepro', href: 'option?op=vang binh dinh' },
+                      'View All'
+                    )
+                  )
                 )
               )
             )
@@ -17533,7 +17624,7 @@ var _templateObject = _taggedTemplateLiteral(['\n    background: none repeat scr
     _templateObject10 = _taggedTemplateLiteral(['\n    float: left;\n    width: 50%;\n    padding: 0px 10px;\n    border-right: 1px solid #4f337a;\n    height: 120px;\n    line-height: 20px;\n'], ['\n    float: left;\n    width: 50%;\n    padding: 0px 10px;\n    border-right: 1px solid #4f337a;\n    height: 120px;\n    line-height: 20px;\n']),
     _templateObject11 = _taggedTemplateLiteral(['\n    float: left;\n    width: 50%;\n    padding: 0px 10px;\n    height: 120px;\n    line-height: 20px;\n'], ['\n    float: left;\n    width: 50%;\n    padding: 0px 10px;\n    height: 120px;\n    line-height: 20px;\n']),
     _templateObject12 = _taggedTemplateLiteral(['\n    color: #4f337a;\n    font-size: 14px;\n    font-weight: bold;\n    margin: 0px;\n'], ['\n    color: #4f337a;\n    font-size: 14px;\n    font-weight: bold;\n    margin: 0px;\n']),
-    _templateObject13 = _taggedTemplateLiteral(['\n    margin: 0px;\n    padding: 0px;\n    color: #666;\n    font-size:13px;\n    font-weight: 100;\n'], ['\n    margin: 0px;\n    padding: 0px;\n    color: #666;\n    font-size:13px;\n    font-weight: 100;\n']);
+    _templateObject13 = _taggedTemplateLiteral(['\n    margin: 0px;\n    padding: 0px;\n    color: #666;\n    font-size:14px;\n    font-weight:300;\n'], ['\n    margin: 0px;\n    padding: 0px;\n    color: #666;\n    font-size:14px;\n    font-weight:300;\n']);
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
@@ -19334,7 +19425,7 @@ exports = module.exports = __webpack_require__(22)(undefined);
 
 
 // module
-exports.push([module.i, ".droplinebar{\r\n\tmargin-bottom: 20px;\r\n\toverflow: hidden;\r\n    width: 1005px;\r\n}\r\n\r\n.droplinebar ul{\r\n  font-size: 14px;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tfloat: left;\r\n\twidth: 100%;\r\n    background: #563d7c none center center repeat-x; /*default background of menu bar*/\r\n    position: absolute;\r\n}\r\n\r\n.droplinebar ul li{\r\n\tdisplay: inline;\r\n\tfloat: left;\r\n\tpadding: 0px;\r\n\tz-index: 999;\r\n}\r\n.droplinebar ul li li{\r\n\tpadding:2px 5px;\r\n}\r\n.droplinebar ul li a{\r\n\tfloat: left;\r\n\tcolor: white;\r\n\tpadding: 10px 4px;\r\n\ttext-decoration: none;\r\n\ttext-shadow: 1px 1px #563d7c;\r\n}\r\n\r\n.droplinebar ul li a:visited{\r\n\tcolor: white;\r\n}\r\n.droplinebar > ul > li.home-menu > a > img.downarrowclass{\r\n\tdisplay:none;\r\n}\r\n.droplinebar > ul > li.home-menu >a {\r\n\tbackground: url(\"http://vinastone.com/catalog/view/theme/vinastone/image/home.png\") no-repeat scroll center center transparent;\r\n\theight:36px;\r\n\twidth: 35px;\r\n\tdisplay:block;\r\n}\r\n.droplinebar > ul > li + li {\r\n\tborder-left: 1px solid rgb(255, 255, 255);\r\n}\r\n.droplinebar  ul  li ul  li ul li img.downarrowclass{\r\n\tdisplay:none;\r\n}\r\n.droplinebar  ul  li ul  li + li {\r\n\tbackground: url(\"\") no-repeat scroll left 12px transparent;\r\n}\r\n.droplinebar  ul.prox h5{\r\n\tmargin:0px;\r\n\tpadding:0px;\r\n\ttext-align:center;\r\n\tfont-size:14px;\r\n}\r\n.droplinebar  ul.prox li{\r\n\twidth:99px;\r\n}\r\n.droplinebar  ul.prox  li + li {\r\n\tbackground:none;\r\n}\r\n.droplinebar  ul  li ul li ul  li + li {\r\n\tbackground: url(\"\") no-repeat scroll left 12px transparent;\r\n}\r\n.droplinebar ul li a:hover, .droplinebar ul li .current{ /*background of main menu bar links onMouseover*/\r\n\tcolor: white;\r\n  background-color: #302047;\r\n}\r\nul.oc-outer {\r\n\r\n}\r\n/* Sub level menus*/\r\n.droplinebar ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: 0;\r\n\ttop: 0;\r\n\tbackground: #563d7c; /*sub menu background color */\r\n\tvisibility: hidden;\r\n  \theight:33px;\r\n}\r\n.droplinebar img.imgprox{\r\n\tborder: 1px solid #EFE7D8;\r\n\tpadding: 3px 3px 3px;\r\n}\r\n.droplinebar img.imgprox:hover{\r\n\tborder: 1px solid #666;\r\n}\r\n.droplinebar ul li ul li ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: -1px !important;\r\n\ttop: 0;\r\n\tbackground: #ffffff; /*sub menu background color */\r\n\tvisibility: hidden;\r\n\theight:auto !important;\r\n\tborder-bottom: 1px solid #563d7c;\r\n\tborder-left: 1px solid #563d7c;\r\n\tborder-right: 1px solid #563d7c;\r\n\tpadding-right:2px;\r\n}\r\n.droplinebar ul li ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: 0;\r\n\ttop: 31px !important;\r\n\tbackground: #ffffff; /*sub menu background color */\r\n\tvisibility: hidden;\r\n\theight:auto !important;\r\n\tborder-bottom: 1px solid #563d7c;\r\n\tborder-left: 1px solid #563d7c;\r\n\tborder-right: 1px solid #563d7c;\r\n\twidth:99.7% !important;\r\n}\r\n.droplinebar ul li ul li ul li a:visited{\r\n\tcolor:#666;\r\n}\r\n.droplinebar ul li ul li ul li a{\r\n\tcolor:#666666;\r\n\ttext-shadow: none;\r\n\tz-index: 999;\r\n}\r\n.droplinebar ul li ul li ul li a:hover{\r\n\tcolor: #302047;\r\n}\r\n/* Sub level menu links style */\r\n.droplinebar ul li ul li a{\r\n\tpadding: 6px 6px 6px 6px;\r\n\tmargin: 0;\r\n}\r\n\r\n.droplinebar ul li ul li a:hover{ /*sub menu links' background color onMouseover */\r\n\tbackground: url(\"\") no-repeat scroll center 26px transparent;\r\n}\r\n/*Group customer*/\r\n#list-customer ul li a{\r\n\tcolor:#666;\r\n}\r\n.droplinebar ul li ul li ul li a.readmorepro:link, .droplinebar ul li ul li ul li a.readmorepro:visited{\r\n\tborder: 1px solid #EFE7D8;\r\n\tfont-weight: bold;\r\n\tmargin-top: 6px;\r\n\tpadding: 35px 3px 34px;\r\n\ttext-align: center;\r\n\twidth: 80px;\r\n}\r\n.droplinebar ul li ul li ul li a.readmorepro:hover{\r\n\tborder: 1px solid #563d7c;\r\n}\r\nul.fixmenu li{\r\n\tpadding:2px 0px !important;\r\n}\r\n.droplinebar ul li ul{\r\n  position: absolute;\r\n  height: 31px; \r\n  visibility: visible;\r\n  width: 1006px; \r\n  left: 7px;\r\n  top: 43px; \r\n  display: none;  \r\n}\r\n.droplinebar ul li ul li{\r\n  \r\n\tborder-left: 1px solid rgb(255, 255, 255);\r\n}\r\n/* .home-menu:hover .oc-outer{\r\n  display: block;\r\n} */\r\n\r\n#ul13 li{\r\n  border-left: 1px solid rgb(77, 76, 73);\r\n}\r\n.oc-left:hover #ul13{\r\n  display: block;\r\n  \r\n}\r\n\r\n.droplinebar ul li:hover > ul{\r\n  display: block;\r\n}\r\n\r\n.droplinebar ul li ul{\r\n    left: -1px;\r\n    top:35px;\r\n}\r\n\r\n.droplinebar ul li ul li:hover ul{\r\n  display: block;\r\n}\r\n\r\n.droplinebar ul li ul li ul{\r\n left: 1px;\r\n top: 26px; \r\n visibility: visible;\r\n width: 1005px;\r\n  }\r\n\r\n.downarrowclassName{\r\n padding-left: 3px;\r\n}\r\n\r\n.imgprox{\r\n\theight: 80px;\r\n\twidth: 80px;\r\n}\r\n\r\n.sub {\r\n\tcursor: pointer;\r\n}\r\n\r\n.more {\r\n\tpadding-top: 5px;\r\n\tpadding-left: 3px;\r\n\tposition: relative;\r\n\tfont-size: 14;\r\n}", ""]);
+exports.push([module.i, ".droplinebar{\r\n\tmargin-bottom: 20px;\r\n\toverflow: hidden;\r\n    width: 1005px;\r\n}\r\n\r\n.droplinebar ul{\r\n  font-size: 14px;\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tfloat: left;\r\n\twidth: 100%;\r\n    background: #563d7c none center center repeat-x; /*default background of menu bar*/\r\n    position: absolute;\r\n}\r\n\r\n.droplinebar ul li{\r\n\tdisplay: inline;\r\n\tfloat: left;\r\n\tpadding: 0px;\r\n\tz-index: 999;\r\n}\r\n.droplinebar ul li li{\r\n\tpadding:2px 5px;\r\n}\r\n.droplinebar ul li a{\r\n\tfloat: left;\r\n\tcolor: white;\r\n\tpadding: 10px 4px;\r\n\ttext-decoration: none;\r\n\ttext-shadow: 1px 1px #563d7c;\r\n}\r\n\r\n.droplinebar ul li a:visited{\r\n\tcolor: white;\r\n}\r\n.droplinebar > ul > li.home-menu > a > img.downarrowclass{\r\n\tdisplay:none;\r\n}\r\n.droplinebar > ul > li.home-menu >a {\r\n\tbackground: url(\"http://vinastone.com/catalog/view/theme/vinastone/image/home.png\") no-repeat scroll center center transparent;\r\n\theight:36px;\r\n\twidth: 35px;\r\n\tdisplay:block;\r\n}\r\n.droplinebar > ul > li + li {\r\n\tborder-left: 1px solid rgb(255, 255, 255);\r\n}\r\n.droplinebar  ul  li ul  li ul li img.downarrowclass{\r\n\tdisplay:none;\r\n}\r\n.droplinebar  ul  li ul  li + li {\r\n\tbackground: url(\"\") no-repeat scroll left 12px transparent;\r\n}\r\n.droplinebar  ul.prox h5{\r\n\tmargin:0px;\r\n\tpadding:0px;\r\n\ttext-align:center;\r\n\tfont-size:14px;\r\n}\r\n.droplinebar  ul.prox li{\r\n\twidth:99px;\r\n}\r\n.droplinebar  ul.prox  li + li {\r\n\tbackground:none;\r\n}\r\n.droplinebar  ul  li ul li ul  li + li {\r\n\tbackground: url(\"\") no-repeat scroll left 12px transparent;\r\n}\r\n.droplinebar ul li a:hover, .droplinebar ul li .current{ /*background of main menu bar links onMouseover*/\r\n\tcolor: white;\r\n  background-color: #302047;\r\n}\r\nul.oc-outer {\r\n\r\n}\r\n/* Sub level menus*/\r\n.droplinebar ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: 0;\r\n\ttop: 0;\r\n\tbackground: #563d7c; /*sub menu background color */\r\n\tvisibility: hidden;\r\n  \theight:33px;\r\n}\r\n.droplinebar img.imgprox{\r\n\tborder: 1px solid #EFE7D8;\r\n\tpadding: 3px 3px 3px;\r\n}\r\n.droplinebar img.imgprox:hover{\r\n\tborder: 1px solid #666;\r\n}\r\n.droplinebar ul li ul li ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: -1px !important;\r\n\ttop: 0;\r\n\tbackground: #ffffff; /*sub menu background color */\r\n\tvisibility: hidden;\r\n\theight:auto !important;\r\n\tborder-bottom: 1px solid #563d7c;\r\n\tborder-left: 1px solid #563d7c;\r\n\tborder-right: 1px solid #563d7c;\r\n\tpadding-right:2px;\r\n}\r\n.droplinebar ul li ul li ul{\r\n\tposition: absolute;\r\n\tz-index: 999;\r\n\tleft: 0;\r\n\ttop: 31px !important;\r\n\tbackground: #ffffff; /*sub menu background color */\r\n\tvisibility: hidden;\r\n\theight:auto !important;\r\n\tborder-bottom: 1px solid #563d7c;\r\n\tborder-left: 1px solid #563d7c;\r\n\tborder-right: 1px solid #563d7c;\r\n\twidth:99.7% !important;\r\n}\r\n.droplinebar ul li ul li ul li a:visited{\r\n\tcolor:#666;\r\n}\r\n.droplinebar ul li ul li ul li a{\r\n\tcolor:#666666;\r\n\ttext-shadow: none;\r\n\tz-index: 999;\r\n}\r\n.droplinebar ul li ul li ul li a:hover{\r\n\tcolor: #302047;\r\n}\r\n/* Sub level menu links style */\r\n.droplinebar ul li ul li a{\r\n\tpadding: 6px 6px 6px 6px;\r\n\tmargin: 0;\r\n}\r\n\r\n.droplinebar ul li ul li a:hover{ /*sub menu links' background color onMouseover */\r\n\tbackground: url(\"\") no-repeat scroll center 26px transparent;\r\n}\r\n/*Group customer*/\r\n#list-customer ul li a{\r\n\tcolor:#666;\r\n}\r\n.droplinebar ul li ul li ul li a.readmorepro:link, .droplinebar ul li ul li ul li a.readmorepro:visited{\r\n\tborder: 1px solid #EFE7D8;\r\n\tfont-weight: bold;\r\n\tmargin-top: 6px;\r\n\tpadding: 35px 3px 34px;\r\n\ttext-align: center;\r\n\twidth: 80px;\r\n}\r\n.droplinebar ul li ul li ul li a.readmorepro:hover{\r\n\tborder: 1px solid #563d7c;\r\n}\r\nul.fixmenu li{\r\n\tpadding:2px 0px !important;\r\n}\r\n.droplinebar ul li ul{\r\n  position: absolute;\r\n  height: 31px; \r\n  visibility: visible;\r\n  width: 1006px; \r\n  left: 7px;\r\n  top: 43px; \r\n  display: none;  \r\n}\r\n.droplinebar ul li ul li{\r\n  \r\n\tborder-left: 1px solid rgb(255, 255, 255);\r\n}\r\n/* .home-menu:hover .oc-outer{\r\n  display: block;\r\n} */\r\n\r\n#ul13 li{\r\n  border-left: 1px solid rgb(77, 76, 73);\r\n}\r\n.oc-left:hover #ul13{\r\n  display: block;\r\n  \r\n}\r\n\r\n.droplinebar ul li:hover > ul{\r\n  display: block;\r\n}\r\n\r\n.droplinebar ul li ul{\r\n    left: -1px;\r\n    top:35px;\r\n}\r\n\r\n.droplinebar ul li ul li:hover ul{\r\n  display: block;\r\n}\r\n\r\n.droplinebar ul li ul li ul{\r\n left: 1px;\r\n top: 26px; \r\n visibility: visible;\r\n width: 1005px;\r\n  }\r\n\r\n.downarrowclassName{\r\n padding-left: 3px;\r\n}\r\n\r\n.imgprox{\r\n\theight: 80px;\r\n\twidth: 80px;\r\n}\r\n\r\n.sub {\r\n\tcursor: pointer;\r\n}\r\n\r\n.droplinebar ul li ul li ul li a.readmorepro:link, .droplinebar ul li ul li ul li a.readmorepro:visited{\r\n\tborder: 1px solid #EFE7D8;\r\n\tfont-weight: bold;\r\n\tmargin-top: 6px;\r\n\tpadding: 31px 3px 34px;\r\n\ttext-align: center;\r\n\twidth: 80px;\r\n\theight: 80px;\r\n}", ""]);
 
 // exports
 

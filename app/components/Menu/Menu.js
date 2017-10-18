@@ -31,8 +31,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })}  
-                            <li> <a  className="more" href="option?op=indian white">
-                              <img/>View All</a></li>
+                            <li><a className="readmorepro" href ="option?op=indian white">View All</a></li>
                           </ul>   
                     </li>                
                   </ul>
@@ -52,6 +51,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })}
+                            <li><a className="readmorepro" href ="option?op=egyptian granite">View All</a></li>
                           </ul>  
                     </li>
                     <li className="oc-left">
@@ -66,6 +66,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })} 
+                            <li><a className="readmorepro" href ="option?op=egyptian marble">View All</a></li>
                             </ul>
                     </li>                        
                   </ul>
@@ -85,6 +86,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })}
+                            <li><a className="readmorepro" href ="option?op=black galaxy">View All</a></li>
                           </ul>  
                     </li>
                     <li className="oc-left">
@@ -99,6 +101,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })} 
+                            <li><a className="readmorepro" href ="option?op=imperial red">View All</a></li>
                             </ul>
                     </li>
                     <li className="oc-left">
@@ -113,6 +116,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })}  
+                            <li><a className="readmorepro" href ="option?op=ruby red">View All</a></li>
                             </ul>
                     </li>
                     <li className="oc-left">
@@ -127,6 +131,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })}  
+                            <li><a className="readmorepro" href ="option?op=tan brown">View All</a></li>
                             </ul>      
                     </li>                                      
                   </ul>
@@ -147,6 +152,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })} 
+                            <li><a className="readmorepro" href ="option?op=italian white">View All</a></li>
                           </ul>   
                     </li>                
                   </ul>
@@ -167,6 +173,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })} 
+                            <li><a className="readmorepro" href ="option?op=spain brown">View All</a></li>
                           </ul>   
                     </li>                
                   </ul>
@@ -187,6 +194,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })}  
+                            <li><a className="readmorepro" href ="option?op=turkey">View All</a></li>
                           </ul>   
                     </li>                
                   </ul>
@@ -207,6 +215,7 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })} 
+                            <li><a className="readmorepro" href ="option?op=vang binh dinh">View All</a></li>
                           </ul>   
                     </li>                
                   </ul>

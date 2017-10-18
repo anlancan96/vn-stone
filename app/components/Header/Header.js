@@ -25,7 +25,7 @@ class Header extends React.Component{
                        <Li>
                            <A href={this.props.link}>
                            <ImgIcon alt=""  src={this.props.srcIcon1}/>
-                           MH International Co,Ltd
+                           MH International Co.,Ltd
                            </A>     
                        </Li>     
                     </Ul>
