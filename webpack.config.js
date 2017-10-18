@@ -6,7 +6,7 @@ module.exports = {
     path: __dirname 
   },
   module: {
-    noParse: /node_modules\/localforage\/dist\/localforage.js/,
+     noParse: /node_modules\/localforage\/dist\/localforage.js/,
     loaders: [
       {
         exclude: /node_modules/,

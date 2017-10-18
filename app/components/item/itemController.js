@@ -9,9 +9,9 @@ class ItemController extends Component {
         super(props);
         this.displayItem = this.displayItem.bind(this);
     }
-    displayItem(defaultState){
+    displayItem(database){
         const parsed = queryString.parse(location.search);
-        return Object.values(defaultState).map(s => {
+        return Object.values(database).map(s => {
             return s.filter((item) =>{
                if(String(item.id)===parsed.id) {
                    return item;
@@ -20,8 +20,8 @@ class ItemController extends Component {
         });
     }
     render(){
-        const {defaultState} = this.props;
-        const items = this.displayItem(defaultState).map((s,index) =>{
+        const {database} = this.props;
+        const items = this.displayItem(database).map((s,index) =>{
             if(s.length!==0)   return <Item item={s} key={index}/>
         });
         return (
@@ -34,7 +34,7 @@ class ItemController extends Component {
 
 function mapStateToProps(state){
     return {
-       defaultState : state.defaultState,
+       database : state.database,
     }
 }
 

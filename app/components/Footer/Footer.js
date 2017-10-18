@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import {MenuFooter,MenuFooterLeft,Ul,Li,BoxArea,
         BoxContent,A,CompanyName,P,InfofooterTitle,FooterBot,Column,Column2} from "./FooterStyles.js";
-
+import {connect} from 'react-redux';
 
 class Footer extends React.Component{
     render(){
+        const {whatLanguage} = this.props;
         return(
             <div>
                 <MenuFooter>
@@ -13,26 +14,26 @@ class Footer extends React.Component{
                             <BoxContent>
                                 <Ul>
                                     <Li>
-                                        <A href="/">Tuyển dụng</A> 
+                                        <A href="/">{ whatLanguage === 'en'?"Recruit":"Tuyển dụng"}</A> 
                                     </Li>    
                                     <Li>
-                                        <A href="/">Liên hệ</A>
+                                        <A href="/">{ whatLanguage === 'en' ?"Contact":"Liên hệ"}</A>
                                     </Li>  
                                     <Li>
                                         <A href="/">Forum</A>
                                     </Li>  
                                     <Li>
-                                        <A href="/">Sơ đồ trang web</A>
+                                        <A href="/">{ whatLanguage === 'en'?"Web Diagrams":"Sơ đồ trang web"}</A>
                                     </Li>  
                                 </Ul>    
                             </BoxContent>    
                         </BoxArea>    
                     </MenuFooterLeft>    
                 </MenuFooter>   
-                <CompanyName> Công ty MH  Stone </CompanyName>
+                <CompanyName>{ whatLanguage === 'en'?"MH Stone Company":" Công ty MH Stone "}</CompanyName>
                 <FooterBot>
                     <Column>
-                        <InfofooterTitle>Văn phòng điều hành</InfofooterTitle>
+                        <InfofooterTitle>{ whatLanguage === 'en'?"Operating office":"Văn phòng điều hành"}</InfofooterTitle>
                         <P>{this.props.Column1}
                             <br/>
                             {this.props.Column12}
@@ -42,7 +43,7 @@ class Footer extends React.Component{
                     </Column>
                    
                     <Column2>
-                        <InfofooterTitle>Xưởng tại thành phố Cần Thơ</InfofooterTitle>
+                        <InfofooterTitle>{ whatLanguage === 'en'?"Factory located in Can Tho City":"Xưởng tại thành phố Cần Thơ"}</InfofooterTitle>
                         <P>{this.props.Column41}
                             <br/>
                             {this.props.Column42}
@@ -64,4 +65,10 @@ Footer.defaultProps={
 
 }
 
-module.exports = Footer;
+function mapStateToProps(state){
+    return {
+        whatLanguage : state.whatLanguage,
+    }
+}
+
+export default connect(mapStateToProps)(Footer);

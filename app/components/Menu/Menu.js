@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import './Menu.css';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
-import {filterShowOne,setEnSub,setVnSub} from '../../actionCreator';
+import {setEnSub,setVnSub} from '../../actionCreator';
 
 class Menu extends React.Component{
  
@@ -25,7 +25,7 @@ class Menu extends React.Component{
                             { ChinaStone.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -44,7 +44,7 @@ class Menu extends React.Component{
                             { Egypt1.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -58,7 +58,7 @@ class Menu extends React.Component{
                             { Egypt2.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -77,7 +77,7 @@ class Menu extends React.Component{
                             { Indian1.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -91,7 +91,7 @@ class Menu extends React.Component{
                             { Indian2.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -105,7 +105,7 @@ class Menu extends React.Component{
                             { Indian3.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -119,7 +119,7 @@ class Menu extends React.Component{
                             { Indian4.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -139,7 +139,7 @@ class Menu extends React.Component{
                           { Italy.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -159,7 +159,7 @@ class Menu extends React.Component{
                           { Spain.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -179,7 +179,7 @@ class Menu extends React.Component{
                           { Turkey.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -199,7 +199,7 @@ class Menu extends React.Component{
                           { VietNam.map((s,index) =>{
                               let link = "product?id=" + s.id;
                               return  (
-                                  <li key={s.id}><a href ={link} onClick={() => filterShowOne(s.id)}>
+                                  <li key={s.id}><a href ={link}>
                                       <img className="imgprox" src={s.src}/>
                                       <h5>{s.description}</h5>	
                                     </a></li>     
@@ -209,7 +209,7 @@ class Menu extends React.Component{
                     </li>                
                   </ul>
                 </li>   
-                <li><a href="/"><span>{(whatLanguage==='en')?"Leanguge":"Ngôn ngữ"}<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                <li><a href="/"><span>{(whatLanguage==='en')?"Language":"Ngôn ngữ"}<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
@@ -251,4 +251,4 @@ function mapStatetoProps(state){
     };
 }
 
-export default connect(mapStatetoProps,{filterShowOne,setEnSub,setVnSub})(Menu);
+export default connect(mapStatetoProps,{setEnSub,setVnSub})(Menu);

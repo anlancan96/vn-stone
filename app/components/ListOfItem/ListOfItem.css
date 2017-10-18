@@ -55,9 +55,6 @@
     line-height: 25.2px;
 }
 ul.products li.product {
-	width: 25%;
-	margin: 0;
-	padding: 0 15px;
 	background: transparent;
 	box-shadow: none;
 }
@@ -67,7 +64,7 @@ ul.products li.product {
     margin:0 3.8% 2.992em 0;
     padding:0;
     position:relative;
-    width:22.05%;
+    width:25%;
     margin-left:0;
     display: inline-block;
 }
@@ -133,7 +130,11 @@ ul.products li.product {
  ul.products li.product a{text-decoration:none}
  ul.products li.product a img{width:100%;height:auto;display:block;margin:0 0 1em;box-shadow:none}
 .card .content {
-    padding: 15px 30px;
+    padding: 10px 15px;
+}
+
+.card .content .footer .price{
+    margin-bottom: 5px;
 }
 
 .category a {
@@ -150,11 +151,7 @@ ul.products li.product {
 .card-product .category {
     font-size: 13px;
 }
-.card-product .card-title,
-.card-product .category,
-.card-product .card-description {
-  text-align: center;
-}
+
 h6 {
     font-size: 12.6px;
     line-height: 18.9px;
@@ -178,16 +175,7 @@ h4 {
     font-size: 18.2px;
     line-height: 28.21px;
 }
-.description, .card-description, .footer-big {
-    color: #999999;
-}
-.product .card-product .card-description p {
-	margin-bottom: 10px;
-	color: #999;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 21px;
-}
+
  .product .card-product .footer {
 	text-align: left;
 }
@@ -211,13 +199,15 @@ h4 {
 }
 .card-product .footer .price h4 {
     color: #3C4858;
-    line-height: 1.2;
-    margin-bottom: 0;
-}  
-h4 {
-    font-size: 18.2px;
-    line-height: 28.21px;
+    margin:0;
+    padding: 0;
+    font-size: 15px;
 }
+.card-product .footer .price h4 .amount{
+    display: block;
+    margin-left: 15px;
+}  
+
 .card-product .footer .stats {
     display: table-cell !important;
     padding-left: 10px;
@@ -456,4 +446,17 @@ input#searchsubmit,
 .navbar .navbar-nav > li > a.btn.btn-twitter:active {
   color: #fff;
   background-color: #55acee;
+}
+.breadcrum {
+    color: #CCCCCC;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgb(207, 197, 197);
+    padding-top: 39px;
+}
+
+.breadcrum a {
+    color: #4f337a;
+    padding-right: 6px;
+    padding-left: 6px;
 }

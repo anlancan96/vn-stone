@@ -1,11 +1,11 @@
 import {combineReducers} from 'redux';
 import filterStoneReducer from './filterStoneReducer';
-import visibilityFilter from './visibilityFilter';
 import filterLanguages from './filterLanguages';
+import filterDatabase from './filterDatabase';
 
 const reducer = combineReducers({
     defaultState     : filterStoneReducer,
-    visibilityFilter : visibilityFilter,
-    whatLanguage     : filterLanguages
+    whatLanguage     : filterLanguages,
+    database         : filterDatabase,
 });
 export default reducer;
