@@ -20,6 +20,6 @@ ReactDOM.render((
           <Route path="/" component={Home} />     
       </Switch>
     </BrowserRouter>  
-  </Provider>
+  </Provider> 
   ), document.getElementById('root'));
 
