@@ -24,28 +24,9 @@ app.use(Passport.session());
 app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(express.static('public'));
-var option = {
-  server: {
-      socketOptions: {
-          keepAlive: 300000,
-          connectTimeoutMS: 30000
-      }
-  },
-  replset: {
-      socketOptions: {
-          keepAlive: 300000,
-          connectTimeoutMS: 30000
-      }
-  }
-};
 
-mongoose.connect("mongodb://localhost/MHStone",option ).then(function(){
-  console.log("connent db!");
-},function(err){
-  console.log(err);
-})
 
-app.listen(6969, () => console.log('Server started'))
+app.listen(process.env.PORT || 6969, () => console.log('Server started'))
 app.get('/', (req, res) => res.render('home.ejs'));
 app.get('/product', (req, res) => res.render('home'));
 app.get('/liststone', (req, res) => res.render('home'));
