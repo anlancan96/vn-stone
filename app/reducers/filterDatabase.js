@@ -14,13 +14,13 @@ const defaultState = {
       { id : 9,  optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Gendola-1.jpg", description :"Gendola-1"},
       { id : 10, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Gendola-2.jpg", description :"Gendola-2"},
       { id : 11, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Gray.jpg", description :"Gray"},
-      { id : 12, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Red Aswan Granite Slabs17.jpg", description :"Red Aswan Granite"},
-      { id : 13, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Halayb White Granite Slabs19 (1).jpg", description :"Halay White"},
+      { id : 12, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Red Aswan Granite Slabs17.JPG", description :"Red Aswan Granite"},
+      { id : 13, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Halayb White Granite Slabs19 (1).JPG", description :"Halay White"},
       { id : 14, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Gendola (1).jpg", description :"Gendola (1)"},
       { id : 15, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Granite samples.jpg", description :"Granite samples"},
       { id : 16, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Nervertity.jpg", description :"Nervertity"},
       { id : 17, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/halayeb-white.jpg", description :"halayeb-white"},
-      { id : 18, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Verdy Granite Slabs10 (1).jpg", description :"Verdy Granite Slabs10 (1)"},
+      { id : 18, optionEn : "Egyptian Granite", optionVn : "Granite Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Granite Ai Cập/Verdy Granite Slabs10 (1).JPG", description :"Verdy Granite Slabs10 (1)"},
 
     ],
     Egypt2      : [
@@ -29,7 +29,7 @@ const defaultState = {
       { id : 21, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/Glala extra (10).jpg", description :"Glala extra (10)"},
       { id : 22, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/Glala extra high quality.jpg", description :"Glala extra high quality"},
       { id : 23, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/Glala extra.jpg", description :"Glala extra"},
-      { id : 24, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/Royal creama (4).jpg", description :"Royal creama (4)"},
+      { id : 24, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/Royal creama (4).JPG", description :"Royal creama (4)"},
       { id : 25, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/Royal creama (6).JPG", description :"Royal creama (6)"},
       { id : 26, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/Royal creama (9).JPG", description :"Royal creama (9)"},
       { id : 27, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/Royal creama (14).JPG", description :"Royal creama (14)"},
@@ -87,7 +87,7 @@ const defaultState = {
       { id : 74, optionEn : "Imperial Red", optionVn : "Đỏ Hoàng Gia", Origin : "Indian",OriginVn:"Ấn Độ", type : "indian", src :"../image/Indian/Imperial Red - Đỏ Hoàng Gia/Imperial Red 4.jpg", description :"Imperial Red 4" },
     ],
     Indian3      : [
-      { id : 75, optionEn : "Ruby Red", optionVn : "Đỏ Ruby", Origin : "Indian", type : "indian", src :"../image/Indian/Ruby Red - Đỏ Ruby/Ruby Red.jpg", description :"Ruby Red" },
+      { id : 75, optionEn : "Ruby Red", optionVn : "Đỏ Ruby", Origin : "Indian",OriginVn:"Ấn Độ", type : "indian", src :"../image/Indian/Ruby Red - Đỏ Ruby/Ruby Red.jpg", description :"Ruby Red" },
     ],
     Indian4      : [
       { id : 76, optionEn : "Tan Brown", optionVn : "Nâu Anh Ấn Độ", Origin : "Indian",OriginVn:"Ấn Độ", type : "indian", src :"../image/Indian/Tan Brown - Nâu Anh Ấn Độ/Tan Brown 1.jpg", description :"Tan Brown 1" },

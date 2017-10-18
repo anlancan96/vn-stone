@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import 'font-awesome/css/font-awesome.min.css';
-import './ListOfItem.css';
+import './Option.css';
 import {connect} from 'react-redux';
 
-class ListOfItem extends Component {
+class Option extends Component {
     render(){
         const {whatLanguage} = this.props;
         const ex = this.props.item[0];
@@ -90,4 +90,4 @@ function mapStateToProps(state){
     }
 }
 
-export default connect(mapStateToProps)(ListOfItem);
+export default connect(mapStateToProps)(Option);

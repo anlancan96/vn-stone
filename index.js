@@ -33,3 +33,6 @@ app.get('/liststone', (req, res) => res.render('home'));
 app.get('/search',(req,res) =>{
     res.render('home');
 })
+app.get('/option',(req,res) =>{
+  res.render('home');
+})

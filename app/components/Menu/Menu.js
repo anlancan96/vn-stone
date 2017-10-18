@@ -20,7 +20,7 @@ class Menu extends React.Component{
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
-                        <a href="listStone?type=china"><span>{(whatLanguage==='en')?"Indian White":"Đá Ấn Trắng"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="option?op=indian white"><span>{(whatLanguage==='en')?"Indian White":"Đá Ấn Trắng"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                             { ChinaStone.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -31,6 +31,8 @@ class Menu extends React.Component{
                                     </a></li>     
                                 )
                             })}  
+                            <li> <a  className="more" href="option?op=indian white">
+                              <img/>View All</a></li>
                           </ul>   
                     </li>                
                   </ul>
@@ -39,7 +41,7 @@ class Menu extends React.Component{
                 <li><a href="listStone?type=egypt"><span>{(whatLanguage==='en')?"Egypt Stone":"Đá Ai Cập"}<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >           
                     <li className="oc-left">
-                        <a href="listStone?type=egypt"><span>{(whatLanguage==='en')?"Egyptian Granite":"Granite Ai Cập"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="option?op=egyptian granite"><span>{(whatLanguage==='en')?"Egyptian Granite":"Granite Ai Cập"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox">  
                             { Egypt1.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -53,7 +55,7 @@ class Menu extends React.Component{
                           </ul>  
                     </li>
                     <li className="oc-left">
-                      <a href="listStone?type=egypt"><span>{(whatLanguage==='en')?"Egyptian Marble":"Marble Ai Cập"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                      <a href="option?op=egyptian marble"><span>{(whatLanguage==='en')?"Egyptian Marble":"Marble Ai Cập"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
                             { Egypt2.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -72,7 +74,7 @@ class Menu extends React.Component{
                 <li><a href="listStone?type=idian"><span>{(whatLanguage==='en')?"Indian Stone":"Đá Ấn Độ"}<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >           
                     <li className="oc-left">
-                        <a href="listStone?type=idian"><span>{(whatLanguage==='en')?"Black Galaxy":"Kim Sa Trung Ấn Độ"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="option?op=black galaxy"><span>{(whatLanguage==='en')?"Black Galaxy":"Kim Sa Trung Ấn Độ"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                             { Indian1.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -86,7 +88,7 @@ class Menu extends React.Component{
                           </ul>  
                     </li>
                     <li className="oc-left">
-                      <a href="listStone?type=idian"><span>{(whatLanguage==='en')?"Imperial Red":"Đỏ Hoang Gia"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                      <a href="option?op=imperial red"><span>{(whatLanguage==='en')?"Imperial Red":"Đỏ Hoang Gia"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
                             { Indian2.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -100,7 +102,7 @@ class Menu extends React.Component{
                             </ul>
                     </li>
                     <li className="oc-left">
-                      <a href="listStone?type=idian"><span>{(whatLanguage==='en')?"Ruby Red":"Đỏ Ruby"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                      <a href="option?op=ruby red"><span>{(whatLanguage==='en')?"Ruby Red":"Đỏ Ruby"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
                             { Indian3.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -114,7 +116,7 @@ class Menu extends React.Component{
                             </ul>
                     </li>
                     <li className="oc-left">
-                      <a href="listStone?type=idian"><span>{(whatLanguage==='en')?"Tan Brown":"Nâu Anh Ấn Độ"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                      <a href="option?op=tan brown"><span>{(whatLanguage==='en')?"Tan Brown":"Nâu Anh Ấn Độ"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                             <ul className="prox"> 
                             { Indian4.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -134,7 +136,7 @@ class Menu extends React.Component{
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
-                        <a href="/"><span>{(whatLanguage==='en')?"Italian Marble":"Đá Cẩm Thạch"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="option?op=italian white"><span>{(whatLanguage==='en')?"Italian Marble":"Đá Cẩm Thạch"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                           { Italy.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -154,7 +156,7 @@ class Menu extends React.Component{
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
-                        <a href="listStone?type=spain"><span>{(whatLanguage==='en')?" Spain Marble":"Đá Cẩm Thạch"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="option?op=spain brown"><span>{(whatLanguage==='en')?" Spain Marble":"Đá Cẩm Thạch"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                           { Spain.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -174,7 +176,7 @@ class Menu extends React.Component{
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
-                        <a href="listStone?type=turkey"><span>{(whatLanguage==='en')?"Türkiye Granite":"Đá Hoa Cương"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="option?op=turkey"><span>{(whatLanguage==='en')?"Türkiye Granite":"Đá Hoa Cương"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                           { Turkey.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -194,7 +196,7 @@ class Menu extends React.Component{
                   <ul className="oc-outer" >
                     
                     <li className="oc-left">
-                        <a href="listStone?type=vietnam"><span>{(whatLanguage==='en')?"VietNam Marble":"Đá Cẩm Thạch"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
+                        <a href="option?op=vang binh dinh"><span>{(whatLanguage==='en')?"VietNam Marble":"Đá Cẩm Thạch"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>
                           <ul className="prox"> 
                           { VietNam.map((s,index) =>{
                               let link = "product?id=" + s.id;
@@ -230,8 +232,7 @@ class Menu extends React.Component{
 
 Menu.defaultProps={
     IconHome:"http://vinastone.com/catalog/view/javascript/menu-arrow-down.png",
-    IconDown:"http://vinastone.com/catalog/view/javascript/menu-arrow-down.png",
-    ImageExample1:"http://vinastone.com/image/cache/data/vinastone/san-pham/mosaic/Bluestone/1.B01Rchipsize15x15mm-80x80.jpg",
+    IconDown:"http://vinastone.com/catalog/view/javascript/menu-arrow-down.png"
 }    
 
 function mapStatetoProps(state){

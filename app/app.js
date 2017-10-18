@@ -9,11 +9,13 @@ import store from './store/store';
 import Page2 from './containers/Page2';
 import Product from './containers/Product';
 import SearchInterface from './containers/SearchInterface';
+import Option from './containers/Option';
 
 ReactDOM.render((
   <Provider store={store}>
      <BrowserRouter>
       <Switch>
+          <Route path="/option" component={Option} />
           <Route path="/listStone" component={Page2} />
           <Route path="/product" component={Product} />
           <Route path="/search" component={SearchInterface}/> 
