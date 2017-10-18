@@ -3,7 +3,7 @@ import './item.css';
 import {connect} from 'react-redux';
 import Item from './item';
 import queryString  from 'query-string';
-const parsed = queryString.parse(location.search);
+
 class ItemController extends Component {
     constructor(props){
         super(props);

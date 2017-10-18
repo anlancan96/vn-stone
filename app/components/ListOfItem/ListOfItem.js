@@ -6,15 +6,14 @@ import {connect} from 'react-redux';
 class ListOfItem extends Component {
     render(){
         const {whatLanguage} = this.props;
-        const ex = this.props.item[0];
         return (
             <div>
             <div className="breadcrum">
                 <a href="/">{whatLanguage === 'en' ? "Home":"Trang chủ"}</a>   
                 » 
-                <a href="/">{whatLanguage === 'en'?ex.Origin + " Stone":"Đá " + ex.OriginVn}</a> 
+                <a href="/">{whatLanguage === 'en'? " Stone":"Đá "}</a> 
                 » 
-                <a href="/">{whatLanguage === 'en' ? ex.optionEn:ex.optionVn}</a> 
+                <a href="/">{whatLanguage === 'en' ? "Home":"Trang chủ"}</a> 
             </div>   
             <div className="main main-raised">
                 <div className="blog-post">
