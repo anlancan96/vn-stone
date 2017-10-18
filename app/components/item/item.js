@@ -14,9 +14,9 @@ class Item extends Component {
                     <div className="breadcrum">
                         <a href="/">{whatLanguage === 'en' ? "Home":"Trang chủ"}</a>   
                         » 
-                        <a href={link}>{s.Origin} {whatLanguage === 'en'?"Stone":"Đá"}</a> 
+                        <a href={link}>{whatLanguage === 'en'? s.Origin+ " Stone":"Đá " + s.OriginVn}</a> 
                         » 
-                        <a href="/">{whatLanguage === 'en' ? "Home":"Trang chủ"}</a> 
+                        <a href="/">{whatLanguage === 'en' ? s.optionEn:s.optionVn}</a> 
                     </div>        
                     <div className="Container">
                        
