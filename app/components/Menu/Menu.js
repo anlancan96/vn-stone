@@ -72,7 +72,7 @@ class Menu extends React.Component{
                   </ul>
                 </li>
 
-                <li><a href="listStone?type=idian"><span>{(whatLanguage==='en')?"Indian Stone":"Đá Ấn Độ"}<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
+                <li><a href="listStone?type=indian"><span>{(whatLanguage==='en')?"Indian Stone":"Đá Ấn Độ"}<img src={this.props.IconDown} className="downarrowclassName" /></span></a>
                   <ul className="oc-outer" >           
                     <li className="oc-left">
                         <a href="option?op=black galaxy"><span>{(whatLanguage==='en')?"Black Galaxy":"Kim Sa Trung Ấn Độ"}<img src={this.props.IconDown} className="downarrowclassName"/></span></a>

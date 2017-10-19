@@ -4148,7 +4148,7 @@ var Menu = function (_React$Component) {
             null,
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'a',
-              { href: 'listStone?type=idian' },
+              { href: 'listStone?type=indian' },
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'span',
                 null,
@@ -11657,6 +11657,8 @@ var ListOfItem = function (_Component) {
             var whatLanguage = this.props.whatLanguage;
 
             var ex = this.props.item[0];
+            var link = "listStone?type=" + ex.type;
+            var linkOp = "option?op=" + ex.optionEn.toLowerCase();
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 null,
@@ -11671,13 +11673,13 @@ var ListOfItem = function (_Component) {
                     '\xBB',
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'a',
-                        { href: '/' },
+                        { href: link },
                         whatLanguage === 'en' ? ex.Origin + " Stone" : "Đá " + ex.OriginVn
                     ),
                     '\xBB',
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'a',
-                        { href: '/' },
+                        { href: linkOp },
                         whatLanguage === 'en' ? ex.optionEn : ex.optionVn
                     )
                 ),
@@ -18003,6 +18005,8 @@ var Option = function (_Component) {
             var whatLanguage = this.props.whatLanguage;
 
             var ex = this.props.item[0];
+            var link = "listStone?type=" + ex.type;
+            var linkOp = "option?op=" + ex.optionEn.toLowerCase();
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 null,
@@ -18017,13 +18021,13 @@ var Option = function (_Component) {
                     '\xBB',
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'a',
-                        { href: '/' },
+                        { href: link },
                         whatLanguage === 'en' ? ex.Origin + " Stone" : "Đá " + ex.OriginVn
                     ),
                     '\xBB',
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         'a',
-                        { href: '/' },
+                        { href: linkOp },
                         whatLanguage === 'en' ? ex.optionEn : ex.optionVn
                     )
                 ),

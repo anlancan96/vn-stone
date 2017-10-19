@@ -7,14 +7,16 @@ class Option extends Component {
     render(){
         const {whatLanguage} = this.props;
         const ex = this.props.item[0];
+        let link = "listStone?type=" + ex.type;
+        let linkOp = "option?op=" + ex.optionEn.toLowerCase();
         return (
             <div>
             <div className="breadcrum">
                 <a href="/">{whatLanguage === 'en' ? "Home":"Trang chủ"}</a>   
                 » 
-                <a href="/">{whatLanguage === 'en'?ex.Origin + " Stone":"Đá " + ex.OriginVn}</a> 
+                <a href={link}>{whatLanguage === 'en'?ex.Origin + " Stone":"Đá " + ex.OriginVn}</a> 
                 » 
-                <a href="/">{whatLanguage === 'en' ? ex.optionEn:ex.optionVn}</a> 
+                <a href={linkOp}>{whatLanguage === 'en' ? ex.optionEn:ex.optionVn}</a> 
             </div>   
             <div className="main main-raised">
                 <div className="blog-post">
