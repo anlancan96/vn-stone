@@ -49,7 +49,7 @@ const defaultState = {
       { id : 41, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/sunny (8).JPG", description :"sunny (8)"},
       { id : 42, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/sunny (9).JPG", description :"sunny (9)"},
       { id : 43, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/sunny.JPG", description :"sunny"},
-      { id : 44, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/travin (2).jPG", description :"travin (2)"},
+      { id : 44, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/travin (2).JPG", description :"travin (2)"},
       { id : 45, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/travin (3)_1.JPG", description :""},
       { id : 46, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/travin (3).JPG", description :"travin (3)"},
       { id : 47, optionEn : "Egyptian Marble", optionVn : "Marble Ai Cập", Origin : "Egypt",OriginVn:"Ai Cập", type : "egypt", src :"../image/Egypt/Marble Ai Cap/travin (4).JPG", description :"travin (4)"},
