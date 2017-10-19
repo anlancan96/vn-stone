@@ -20,7 +20,6 @@ class Header extends React.Component{
     return(
        <Head>
             <TopHeader>
-            <a href="tel:0905102999" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);"  id="callnowbutton">&nbsp;</a>
                 <Contact>
                     <Ul>
                        <Li>

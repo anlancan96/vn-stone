@@ -3840,11 +3840,6 @@ var Header = function (_React$Component) {
                     __WEBPACK_IMPORTED_MODULE_1__HeaderStyles_js__["b" /* TopHeader */],
                     null,
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                        'a',
-                        { href: 'tel:0905102999', onclick: '_gaq.push([\'_trackEvent\', \'Contact\', \'Call Now Button\', \'Phone\']);', id: 'callnowbutton' },
-                        '\xA0'
-                    ),
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                         __WEBPACK_IMPORTED_MODULE_1__HeaderStyles_js__["c" /* Contact */],
                         null,
                         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
